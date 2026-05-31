@@ -2,6 +2,7 @@ const COMPANY_LINKS = [
   { label: 'The System', href: '#thesystem' },
   { label: 'Services', href: '#services' },
   { label: 'About', href: '#about' },
+  { label: 'Insights', href: '/insights/' },
 ];
 
 const CONNECT_LINKS = [

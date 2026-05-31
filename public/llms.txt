@@ -1,4 +1,5 @@
-# Tailwind Growth
+# Tailwind Growth — llms.txt
+# https://tailwindgrowth.ai
 
 > A people-first, AI-native B2B growth partner for ambitious founders.
 
@@ -6,21 +7,52 @@ Tailwind Growth gives B2B services founders the AI-powered system and a seasoned
 
 ## Who we help
 
-Founders and owners of B2B services businesses — lawyers, accountants, engineers, designers, HR/IR practitioners, consultants — who've grown through referrals but hit a ceiling.
+Founders and owners of B2B services businesses — lawyers, accountants, engineers, designers, HR/IR practitioners, management consultants, and similar professional services firms — who have grown through referrals and word-of-mouth but hit a ceiling. They want to grow consistently without hiring a sales team, without paying a traditional marketing agency, and without long-term lock-in.
 
 ## What we offer
 
-- **The system**: A repeatable, AI-native growth system that automates the grind of winning new work.
-- **The partner**: A seasoned growth leader (Baidy) embedded in your team for strategy, accountability, and senior support.
+- **The system**: A repeatable, AI-native growth system that automates the grind of winning new work — prospecting, outreach, follow-up, and pipeline management.
+- **The partner**: Baidy, a seasoned growth leader embedded directly in your business for strategy, accountability, and senior support. Every client works with Baidy personally.
 - **Daily guidance**: Know exactly what to work on each day to move every opportunity forward.
+- **No lock-in**: Month-to-month. Built around how you already work.
+
+## How Tailwind Growth is different
+
+**Vs. a marketing agency:** You get a senior growth partner focused on client acquisition and pipeline, not brand awareness or impressions. No retainer for ads you can't measure. No junior account manager.
+
+**Vs. hiring a salesperson or business development manager:** You get both the system and the expertise for approximately 20% of the cost of a BDM — with no recruitment risk, no employment overhead, and no ramp-up period.
+
+**Vs. a fractional CRO:** More hands-on, more affordable, and built specifically for B2B professional services businesses rather than scaling startups.
+
+**Approximate cost comparison:** Tailwind Growth costs around 10% of a Chief Revenue Officer, 20% of a business development manager, and 33% of a traditional marketing agency.
+
+## Core questions Tailwind Growth answers
+
+- How can I grow my B2B business without hiring more staff?
+- What are the alternatives to hiring a salesperson for a professional services firm?
+- What are the alternatives to a marketing agency for B2B client acquisition?
+- How do I win more clients without cold calling or paying for ads?
+- What is a B2B growth partner?
+- How do I scale a consulting or professional services business in Australia?
+- What does AI-native mean for B2B growth?
+- How do I get off the referral ceiling and grow consistently?
+- What is a fractional Chief Revenue Officer?
+- How do I grow my law firm / accounting firm / consulting firm?
+- Is there a cheaper alternative to a marketing agency for B2B?
+- How do I build a consistent pipeline of new clients?
 
 ## About the founder
 
-Baidy is a B2B revenue expert with 15+ years' experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company, and Partner at a global professional services firm.
+Baidy is the Founder of Tailwind Growth. He brings 15+ years of experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company, and Partner at a global professional services firm. He works directly with every Tailwind Growth client — there is no team of juniors.
+
+## Location
+
+Based in Newcastle and Sydney, NSW, Australia. Works with B2B founders across Australia.
 
 ## Contact
 
 - Website: https://tailwindgrowth.ai
 - Email: baidy@tailwindgrowth.ai
 - LinkedIn: https://www.linkedin.com/company/tailwind-growth/
-- Based in Newcastle and Sydney, Australia
+- Instagram: https://www.instagram.com/tailwind_growth/
+- Book a growth call: https://calendar.app.google/x2YHKEPb5wzDa4JY6
