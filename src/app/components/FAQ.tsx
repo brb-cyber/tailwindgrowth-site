@@ -10,11 +10,51 @@ const FAQS = [
   },
   {
     q: 'Who is Tailwind Growth for?',
-    a: "Founders and owners of B2B services businesses (lawyers, accountants, engineers, designers, HR/IR practitioners, consultants, and similar) who've grown through referrals but hit a ceiling, and want to grow without hiring a sales team or paying for an expensive agency.",
+    a: "Founders and owners of B2B professional services businesses — lawyers, accountants, engineers, designers, HR/IR practitioners, management consultants, and similar — who've grown through referrals but hit a ceiling, and want to grow without hiring a sales team or paying for an expensive agency.",
+  },
+  {
+    q: 'How do I grow my professional services business without hiring more staff?',
+    a: "Most founders try to grow by hiring — a salesperson, a BDM, or an agency. Each is expensive, slow to ramp, and often disconnected from how professional services actually wins work. Tailwind Growth takes a different approach: an AI-powered system handles the admin-heavy 70% of winning new work — prospecting, outreach, follow-up — while Baidy works directly with you as a fractional sales leader. Consistent pipeline, no new headcount.",
+  },
+  {
+    q: 'What is a fractional sales leader?',
+    a: "A fractional sales leader is a senior revenue professional who works with your business on a part-time or embedded basis — giving you the expertise of a Chief Revenue Officer or Head of Sales without the full-time cost or commitment. At Tailwind Growth, Baidy serves as your fractional sales leader: setting strategy, driving accountability, and working directly in your pipeline every month.",
+  },
+  {
+    q: 'Is Tailwind Growth a marketing agency?',
+    a: "No. Traditional marketing agencies focus on brand awareness, content, and ad campaigns — activity that's hard to connect directly to new clients. Tailwind Growth focuses entirely on client acquisition: building your pipeline, managing outreach, and converting opportunities into revenue. You don't pay for impressions. You pay for a system that wins work.",
   },
   {
     q: 'How is it different from a marketing agency or hiring a salesperson?',
     a: "You get both the system and a senior partner in one — for a fraction of the alternatives. Tailwind typically costs around 10% of a Chief Revenue Officer, 20% of a business development manager, and 33% of a traditional agency, without the transactional feel or the lock-in. It's built around how you already work, month to month.",
+  },
+  {
+    q: 'How is Tailwind Growth different from outsourced business development?',
+    a: "Traditional outsourced business development is transactional — a team cold calling on your behalf with a script that doesn't reflect how your business actually wins work. Tailwind Growth is different: Baidy works directly with you, the approach is built around your existing relationships and reputation, and the AI system supports rather than replaces the human work. It's a partnership, not a vendor relationship.",
+  },
+  {
+    q: "What does 'AI-native' mean for a B2B growth partner?",
+    a: "AI-native means the growth system is designed around AI from the ground up — not a traditional approach with AI bolted on. Tailwind Growth uses AI to handle research, personalisation, outreach sequencing, and pipeline tracking that used to require a full sales team. The result: founders get consistent, high-quality pipeline activity without the overhead of multiple hires.",
+  },
+  {
+    q: 'What industries or businesses does Tailwind Growth work with?',
+    a: "Tailwind Growth works with founders of B2B professional services businesses — lawyers, accountants, engineers, HR and IR practitioners, management consultants, designers, and similar firms. The common thread: they sell expertise and relationships, have grown primarily through referrals, and want a more consistent, scalable pipeline without a traditional sales team.",
+  },
+  {
+    q: 'Is there a lock-in contract?',
+    a: "No. Tailwind Growth is month-to-month. There's no long-term contract or lock-in. It's built to earn your business every month.",
+  },
+  {
+    q: 'How long does it take to see results?',
+    a: "Most clients see pipeline activity within the first 30 days — new conversations, re-engaged contacts, and a clearer picture of where opportunities sit. Meaningful revenue outcomes typically follow within 60–90 days, depending on your sales cycle. Growth strategy and accountability compound over time, so clients who stay consistent see the biggest results.",
+  },
+  {
+    q: 'How much does Tailwind Growth cost?',
+    a: "Tailwind Growth is priced as a fraction of the alternatives — typically around 10% of a Chief Revenue Officer, 20% of a business development manager, and 33% of a traditional marketing agency. Book a growth call for a conversation about what's right for your business.",
+  },
+  {
+    q: 'Do I need to understand AI or be technical to use Tailwind Growth?',
+    a: "Not at all. The AI system runs in the background — you don't interact with it directly. What you interact with is Baidy: strategy sessions, pipeline reviews, and clear guidance on what to do each day. If you can use email and a calendar, you can use Tailwind Growth.",
   },
   {
     q: 'Where is Tailwind Growth based?',
