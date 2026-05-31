@@ -5,7 +5,7 @@ export default function Hero({ bookUrl }: { bookUrl: string }) {
     <section className="hero" id="top">
       <div className="container hero-grid">
         <div>
-          <Eyebrow>A people-first, AI-native growth partner</Eyebrow>
+          <Eyebrow>A people-first, AI-native B2B growth partner</Eyebrow>
           <h1 className="disp">
             Grow on<br />your <span className="lime">terms.</span>
           </h1>
@@ -41,7 +41,7 @@ export default function Hero({ bookUrl }: { bookUrl: string }) {
           <img
             className="hero-img"
             src="/assets/images/team-office.jpg"
-            alt="Founders at work in the studio"
+            alt="Tailwind Growth team — AI-native B2B growth partners in Australia"
           />
           <div className="hero-overlay"></div>
           <div className="hero-photo">

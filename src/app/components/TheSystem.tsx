@@ -5,7 +5,7 @@ export default function TheSystem() {
     <section className="section" id="thesystem">
       <div className="container">
         <div className="section-head">
-          <Eyebrow>The new way to grow</Eyebrow>
+          <Eyebrow>AI-native B2B growth system</Eyebrow>
           <h2 className="disp">Harness your tailwind.</h2>
           <p>
             Most founders are stuck choosing between hiring a salesperson they can&apos;t
