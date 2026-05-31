@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -123,6 +124,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       </head>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-RPYDSCW6XE" strategy="afterInteractive" />
+      <Script id="ga4" strategy="afterInteractive">
+        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RPYDSCW6XE');`}
+      </Script>
       <body>{children}</body>
     </html>
   );
