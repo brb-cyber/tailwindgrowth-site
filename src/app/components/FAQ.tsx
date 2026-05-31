@@ -30,7 +30,7 @@ const FAQS = [
   },
   {
     q: 'How is Tailwind Growth different from outsourced business development?',
-    a: "Traditional outsourced business development is transactional — a team cold calling on your behalf with a script that doesn't reflect how your business actually wins work. Tailwind Growth is different: Baidy works directly with you, the approach is built around your existing relationships and reputation, and the AI system supports rather than replaces the human work. It's a partnership, not a vendor relationship.",
+    a: "Traditional outsourced business development is transactional — a team cold calling on your behalf with a script that doesn't reflect how your business actually wins work. Tailwind Growth is different: Baidy becomes an embedded member of your team, working alongside you as if he were on the payroll — building on your existing relationships and reputation, with the AI system handling the grind in the background. It's a partnership, not a vendor relationship.",
   },
   {
     q: "What does 'AI-native' mean for a B2B growth partner?",
