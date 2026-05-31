@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://tailwindgrowth.ai'),
   title: 'Tailwind Growth — AI-Native B2B Growth Partner | Australia',
   description:
-    'Tailwind Growth is an AI-native B2B growth partner for professional services founders across Australia. The system and a fractional sales leader to win more clients — without hiring a sales team or paying an agency.',
+    'Tailwind Growth is an AI-native B2B growth partner for professional services founders across Australia. The system and a fractional growth leader to win more clients — without hiring a sales team or paying an agency.',
   alternates: { canonical: '/' },
   robots: { index: true, follow: true },
   openGraph: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: 'Tailwind Growth',
     title: 'Tailwind Growth — AI-Native B2B Growth Partner Australia',
     description:
-      "People-first, AI-native B2B growth partner for Australian founders. The system and a fractional sales leader to win more clients — without hiring a sales team.",
+      "People-first, AI-native B2B growth partner for Australian founders. The system and a fractional growth leader to win more clients — without hiring a sales team.",
     url: 'https://tailwindgrowth.ai/',
     images: [{ url: '/assets/images/team-office.jpg', width: 1200, height: 630, alt: 'Tailwind Growth — Grow on your terms' }],
   },
@@ -58,7 +58,7 @@ const orgSchema = {
       knowsAbout: [
         'B2B growth',
         'client acquisition',
-        'fractional sales leadership',
+        'fractional growth leadership',
         'revenue strategy',
         'professional services growth',
         'AI-native business development',
@@ -77,12 +77,12 @@ const orgSchema = {
     {
       '@type': 'Service',
       '@id': 'https://tailwindgrowth.ai/#service-partner',
-      name: 'Fractional Sales Leader & Growth Partner',
+      name: 'Fractional Growth Leader & B2B Growth Partner',
       provider: { '@id': 'https://tailwindgrowth.ai/#org' },
       description:
-        'A seasoned fractional sales leader embedded in your business — strategy, accountability, and senior growth support without a full-time hire. Works directly with every client.',
+        'A seasoned fractional growth leader embedded in your business — strategy, accountability, and senior growth support without a full-time hire. Works directly with every client.',
       areaServed: 'AU',
-      serviceType: 'Fractional Chief Revenue Officer',
+      serviceType: 'Fractional Growth Leader',
     },
     {
       '@type': 'Service',
@@ -122,15 +122,15 @@ const faqSchema = {
       name: 'How do I grow my professional services business without hiring more staff?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Most founders try to grow by hiring — a salesperson, a BDM, or an agency. Each is expensive, slow to ramp, and often disconnected from how professional services actually wins work. Tailwind Growth takes a different approach: an AI-powered system handles the admin-heavy 70% of winning new work — prospecting, outreach, follow-up — while Baidy works directly with you as a fractional sales leader. Consistent pipeline, no new headcount.",
+        text: "Most founders try to grow by hiring — a salesperson, a BDM, or an agency. Each is expensive, slow to ramp, and often disconnected from how professional services actually wins work. Tailwind Growth takes a different approach: an AI-powered system handles the admin-heavy 70% of winning new work — prospecting, outreach, follow-up — while Baidy works directly with you as a fractional growth leader. Consistent pipeline, no new headcount.",
       },
     },
     {
       '@type': 'Question',
-      name: 'What is a fractional sales leader?',
+      name: 'What is a fractional growth leader?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "A fractional sales leader is a senior revenue professional who works with your business on a part-time or embedded basis — giving you the expertise of a Chief Revenue Officer or Head of Sales without the full-time cost or commitment. At Tailwind Growth, Baidy serves as your fractional sales leader: setting strategy, driving accountability, and working directly in your pipeline every month.",
+        text: "A fractional growth leader is a senior revenue professional who works with your business on a part-time or embedded basis — giving you the expertise of a Chief Revenue Officer or Head of Sales without the full-time cost or commitment. At Tailwind Growth, Baidy serves as your fractional growth leader: setting strategy, driving accountability, and working directly in your pipeline every month.",
       },
     },
     {

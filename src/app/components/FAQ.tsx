@@ -14,11 +14,11 @@ const FAQS = [
   },
   {
     q: 'How do I grow my professional services business without hiring more staff?',
-    a: "Most founders try to grow by hiring — a salesperson, a BDM, or an agency. Each is expensive, slow to ramp, and often disconnected from how professional services actually wins work. Tailwind Growth takes a different approach: an AI-powered system handles the admin-heavy 70% of winning new work — prospecting, outreach, follow-up — while Baidy works directly with you as a fractional sales leader. Consistent pipeline, no new headcount.",
+    a: "Most founders try to grow by hiring — a salesperson, a BDM, or an agency. Each is expensive, slow to ramp, and often disconnected from how professional services actually wins work. Tailwind Growth takes a different approach: an AI-powered system handles the admin-heavy 70% of winning new work — prospecting, outreach, follow-up — while Baidy works directly with you as a fractional growth leader. Consistent pipeline, no new headcount.",
   },
   {
-    q: 'What is a fractional sales leader?',
-    a: "A fractional sales leader is a senior revenue professional who works with your business on a part-time or embedded basis — giving you the expertise of a Chief Revenue Officer or Head of Sales without the full-time cost or commitment. At Tailwind Growth, Baidy serves as your fractional sales leader: setting strategy, driving accountability, and working directly in your pipeline every month.",
+    q: 'What is a fractional growth leader?',
+    a: "A fractional growth leader is a senior revenue professional who works with your business on a part-time or embedded basis — giving you the expertise of a Chief Revenue Officer or Head of Sales without the full-time cost or commitment. At Tailwind Growth, Baidy serves as your fractional growth leader: setting strategy, driving accountability, and working directly in your pipeline every month.",
   },
   {
     q: 'Is Tailwind Growth a marketing agency?',
