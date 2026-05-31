@@ -170,7 +170,7 @@ const faqSchema = {
       name: 'What industries or businesses does Tailwind Growth work with?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Tailwind Growth works with founders of B2B professional services businesses — lawyers, accountants, engineers, HR and IR practitioners, management consultants, designers, and similar firms. The common thread: they sell expertise and relationships, have grown primarily through referrals, and want a more consistent, scalable pipeline without a traditional sales team.",
+        text: "Tailwind Growth works with founders of B2B professional services businesses — lawyers, accountants, engineers, HR and IR practitioners, management consultants, designers, and similar firms. The common thread: they have strong relationships with clients and provide expertise, have grown primarily through referrals, and want a more consistent, scalable pipeline without a traditional sales team.",
       },
     },
     {
@@ -186,7 +186,7 @@ const faqSchema = {
       name: 'How long does it take to see results?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Most clients see pipeline activity within the first 30 days — new conversations, re-engaged contacts, and a clearer picture of where opportunities sit. Meaningful revenue outcomes typically follow within 60–90 days, depending on your sales cycle. Growth strategy and accountability compound over time, so clients who stay consistent see the biggest results.",
+        text: "Our clients see impact from day one through clarity over their growth strategy, and their time being freed up from admin to be able to do the things that move the needle - new conversations, re-engaged contacts, and a clearer picture of where opportunities sit. Meaningful revenue outcomes typically follow within 60–90 days, depending on your sales cycle. Growth strategy and accountability compound over time, so clients who stay consistent see the biggest results.",
       },
     },
     {
@@ -194,7 +194,7 @@ const faqSchema = {
       name: 'How much does Tailwind Growth cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Tailwind Growth is priced as a fraction of the alternatives — typically around 10% of a Chief Revenue Officer, 20% of a business development manager, and 33% of a traditional marketing agency. Book a growth call for a conversation about what's right for your business.",
+        text: "Tailwind Growth is priced to give you value and flexibility. The good news is that means that it's priced as a fraction of the alternatives — typically around 10% of a Chief Revenue Officer, 20% of a business development manager, and 33% of a traditional marketing agency. Let's chat to see about what's right for your business.",
       },
     },
     {
@@ -202,7 +202,7 @@ const faqSchema = {
       name: 'Do I need to understand AI or be technical to use Tailwind Growth?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Not at all. The AI system runs in the background — you don't interact with it directly. What you interact with is Baidy: strategy sessions, pipeline reviews, and clear guidance on what to do each day. If you can use email and a calendar, you can use Tailwind Growth.",
+        text: "Not at all, we believe that good AI is invisible. The AI system runs in the background — you don't interact with it directly. What you interact with is Baidy: strategy sessions, pipeline reviews, and clear guidance on what to do each day. If you can use email and a calendar, you can use Tailwind Growth.",
       },
     },
     {
