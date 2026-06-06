@@ -90,6 +90,34 @@ export default function Insights() {
               </p>
             </div>
             <div style={{ marginTop: '4rem', display: 'flex', flexDirection: 'column', gap: '4rem' }}>
+              <a href="/insights/notes-command/" style={{
+                display: 'block',
+                maxWidth: '68ch',
+                background: 'var(--indigo-050)',
+                border: '1px solid var(--indigo-100)',
+                borderRadius: 'var(--r-lg)',
+                padding: '2rem',
+                textDecoration: 'none',
+                color: 'inherit',
+                transition: 'box-shadow .2s ease, transform .2s ease',
+              }}
+              onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)'; (e.currentTarget as HTMLElement).style.boxShadow = 'var(--shadow-md)'; }}
+              onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = ''; (e.currentTarget as HTMLElement).style.boxShadow = ''; }}
+              >
+                <p style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--indigo)', marginBottom: '0.75rem' }}>
+                  Free Tool — Claude Code
+                </p>
+                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.75rem', lineHeight: 1.3 }}>
+                  Turn photos of your notes into markdown. Instantly.
+                </h2>
+                <p style={{ lineHeight: 1.75, opacity: 0.85, marginBottom: '1rem' }}>
+                  The <code style={{ background: 'var(--indigo-100)', color: 'var(--indigo)', borderRadius: '4px', padding: '0.1em 0.4em', fontSize: '0.9em' }}>/notes</code> command is a custom Claude Code slash command that reads photos of your handwritten notes and transcribes them into clean, dated markdown files — in seconds. Free setup guide inside.
+                </p>
+                <span style={{ color: 'var(--indigo)', fontWeight: 600, fontSize: '0.9375rem' }}>
+                  Get the setup guide →
+                </span>
+              </a>
+
               {POSTS.map((post, i) => (
                 <article key={i} style={{ maxWidth: '68ch' }}>
                   <time
