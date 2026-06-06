@@ -284,6 +284,12 @@ img{display:block;max-width:100%;}
 .faq-item.open .faq-a{max-height:240px;}
 .faq-a p{margin:0;padding:0 40px 28px 0;font-size:16px;line-height:1.6;color:var(--ink-500);}
 
+/* ---------- Insight card ---------- */
+.insight-card{display:block;text-decoration:none;color:inherit;background:var(--indigo-050);
+  border:1px solid var(--indigo-100);border-radius:var(--r-lg);padding:2rem;
+  transition:box-shadow .2s ease,transform .2s ease;}
+.insight-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);}
+
 /* ---------- Footer ---------- */
 .footer{background:var(--midnight);color:#fff;padding:72px 0 40px;}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:40px;}
