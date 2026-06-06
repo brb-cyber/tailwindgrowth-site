@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { label: 'The System', href: '#thesystem' },
   { label: 'Services', href: '#services' },
   { label: 'About', href: '#about' },
+  { label: 'Insights', href: '/insights' },
 ];
 
 export default function Nav({ bookUrl }: { bookUrl: string }) {
