@@ -107,7 +107,7 @@ export default function NotesGate() {
                     Get the setup guide
                   </h2>
                   <p style={{ color: 'var(--ink-500)', marginBottom: '1.5rem', lineHeight: 1.6 }}>
-                    Enter your email and we&apos;ll reveal the step-by-step setup. Takes under 5 minutes.
+                    Enter your email and we&apos;ll reveal the step-by-step setup.
                   </p>
                   <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
                     <input
