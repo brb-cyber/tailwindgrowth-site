@@ -34,9 +34,9 @@ const PROMPT_CONTENT = `Perform a spelling and grammar check of the text provide
 
 Steps:
 
-1. Annotated corrections — Show the original text with corrections marked inline using strikethrough for removed text and bold for replacements. After the annotated text, list each change as a numbered item with a plain-English explanation of why it was changed.
+1. Annotated corrections: Show the original text with corrections marked inline using strikethrough for removed text and bold for replacements. After the annotated text, list each change as a numbered item with a plain-English explanation of why it was changed.
 
-2. Clean corrected version — Under a horizontal rule, provide the fully corrected text, clean and ready to copy and paste, with no annotations or markup.
+2. Clean corrected version: Under a horizontal rule, provide the fully corrected text, clean and ready to copy and paste, with no annotations or markup.
 
 Rules:
 - Use Australian English spelling (e.g. organise not organize, colour not color, -ise/-isation suffixes)
@@ -92,7 +92,7 @@ export default function AbcGate() {
                 Fix your copy in seconds.<br />No editor required.
               </h1>
               <p style={{ maxWidth: '52ch', marginTop: '1.25rem', fontSize: '1.125rem', lineHeight: 1.7 }}>
-                The <code style={INLINE_CODE}>/abc</code> command is a custom Claude Code slash command that checks your writing for spelling and grammar in Australian English — with annotated corrections, plain-English explanations, and a clean corrected version ready to paste.
+                The <code style={INLINE_CODE}>/abc</code> command is a custom Claude Code slash command that checks your writing for spelling and grammar in Australian English: annotated corrections, plain-English explanations, and a clean corrected version ready to paste.
               </p>
             </div>
 
@@ -150,7 +150,7 @@ export default function AbcGate() {
                     fontWeight: 600,
                     fontSize: '0.9375rem',
                   }}>
-                    Setup guide unlocked — enjoy.
+                    Setup guide unlocked. Enjoy.
                   </div>
 
                   <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1.25rem' }}>Setup (one time)</h2>
