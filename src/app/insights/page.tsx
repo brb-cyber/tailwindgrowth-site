@@ -90,6 +90,21 @@ export default function Insights() {
               </p>
             </div>
             <div style={{ marginTop: '4rem', display: 'flex', flexDirection: 'column', gap: '4rem' }}>
+              <a href="/insights/abc-command/" className="insight-card" style={{ maxWidth: '68ch' }}>
+                <p style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--indigo)', marginBottom: '0.75rem' }}>
+                  Free Tool — Claude Code
+                </p>
+                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '0.75rem', lineHeight: 1.3 }}>
+                  Fix your copy in seconds. No editor required.
+                </h2>
+                <p style={{ lineHeight: 1.75, opacity: 0.85, marginBottom: '1rem' }}>
+                  The <code style={{ background: 'var(--indigo-100)', color: 'var(--indigo)', borderRadius: '4px', padding: '0.1em 0.4em', fontSize: '0.9em' }}>/abc</code> command checks your writing for spelling and grammar in Australian English — annotated corrections, plain-English explanations, and a clean corrected version ready to paste. Free setup guide inside.
+                </p>
+                <span style={{ color: 'var(--indigo)', fontWeight: 600, fontSize: '0.9375rem' }}>
+                  Get the command →
+                </span>
+              </a>
+
               <a href="/insights/notes-command/" className="insight-card" style={{ maxWidth: '68ch' }}>
                 <p style={{ fontSize: '0.75rem', fontWeight: 600, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--indigo)', marginBottom: '0.75rem' }}>
                   Free Tool — Claude Code
