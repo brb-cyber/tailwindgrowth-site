@@ -204,12 +204,12 @@ function FeatureJourneySection() {
                 <div
                   className="growth-journey-visual"
                   aria-hidden="true"
-                  style={{ background: "#f4f4f5", padding: 0, overflow: "hidden", order: i % 2 === 1 ? -1 : 1 }}
+                  style={{ background: "#f4f4f5", padding: 0, overflow: "hidden", order: i % 2 === 1 ? -1 : 1, alignItems: "flex-start", justifyContent: "stretch" }}
                 >
                   <img
                     src={item.previewImg}
                     alt=""
-                    style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center", display: "block" }}
+                    style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "top center", display: "block" }}
                   />
                 </div>
               ) : (
