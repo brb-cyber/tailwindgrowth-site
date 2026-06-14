@@ -151,7 +151,7 @@ const JOURNEY_ITEMS = [
   {
     label: "The Differentiator",
     heading: "Your own growth leader",
-    body: "Think of the Tailwind platform as the sales assistant that never sleeps: pipeline management, outreach, documents, follow-ups, all handled. But strategy, judgement calls, and the bespoke work of growing a services business? That is Baidy's domain. As your embedded fractional growth leader, he works on the things that move the needle: channel partner strategy, target mapping, inbound engine development, deal reviews. Access to senior revenue expertise you would not otherwise get, without the full-time cost.",
+    body: "Think of the Tailwind platform as the sales assistant that never sleeps: pipeline management, outreach, documents, follow-ups, all handled. But strategy, judgement calls, and the bespoke work of growing a services business? That is Baidy's domain. As your embedded fractional growth leader, she works on the things that move the needle: channel partner strategy, target mapping, inbound engine development, deal reviews. Access to senior revenue expertise you would not otherwise get, without the full-time cost.",
     previewLabel: "Growth Leader",
     previewBg: "linear-gradient(150deg, var(--lime-600) 0%, var(--pine) 100%)",
     isKeyDifferentiator: true,
@@ -398,10 +398,10 @@ function WhyTailwindSection() {
               <span className="founder-role">Founder and Fractional Growth Leader</span>
               <h4>Baidy</h4>
               <p>
-                15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy is not a consultant who observes from the sideline. He is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that software alone cannot deliver.
+                15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy is not a consultant who observes from the sideline. She is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that software alone cannot deliver.
               </p>
               <p style={{ marginTop: 16 }}>
-                <strong style={{ color: "var(--midnight)" }}>His investment in your success is not a sales pitch. It is how the model works.</strong>
+                <strong style={{ color: "var(--midnight)" }}>Her investment in your success is not a sales pitch. It is how the model works.</strong>
               </p>
             </div>
           </div>
