@@ -217,6 +217,7 @@ img{display:block;max-width:100%;}
 .feature-ic{width:56px;height:56px;border-radius:16px;background:var(--indigo-050);
   display:flex;align-items:center;justify-content:center;margin-bottom:24px;}
 .feature-ic img{width:30px;height:30px;}
+.feature-ic svg{width:28px;height:28px;}
 .feature-card.dark .feature-ic{background:rgba(166,235,0,.14);}
 .feature-card h3{font-size:25px;font-weight:700;margin:0 0 12px;letter-spacing:-.01em;}
 .feature-card p{font-size:16px;line-height:1.6;color:var(--ink-500);margin:0;}
