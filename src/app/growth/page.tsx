@@ -140,6 +140,7 @@ const JOURNEY_ITEMS = [
     body: "Your Prioritisation Agent tells you the 3 highest-priority actions to take across your entire pipeline each day. Skip the digging. Go straight to action.",
     previewLabel: "Today's Priorities",
     previewBg: "linear-gradient(135deg, var(--indigo) 0%, var(--indigo-700) 100%)",
+    previewImg: "/assets/screenshots/todays-priorities.png",
   },
   {
     label: "Deal Unsticker",
@@ -147,6 +148,7 @@ const JOURNEY_ITEMS = [
     body: "Your Sales Advisor Agent gives you on-demand advice on what action to take to move that specific opportunity forward. Your own sales advisor, without the commission.",
     previewLabel: "Sales Advisor",
     previewBg: "linear-gradient(135deg, var(--pine) 0%, var(--indigo) 100%)",
+    previewImg: "/assets/screenshots/sales-advisor.png",
   },
   {
     label: "The Differentiator",
@@ -192,14 +194,28 @@ function FeatureJourneySection() {
                 </h3>
                 <p>{item.body}</p>
               </div>
-              <div
-                className="growth-journey-visual"
-                aria-hidden="true"
-                style={{ background: item.previewBg, order: i % 2 === 1 ? -1 : 1 }}
-              >
-                <span className="feature-name" style={{ color: "#fff" }}>{item.previewLabel}</span>
-                <FeaturePreviewDots />
-              </div>
+              {item.previewImg ? (
+                <div
+                  className="growth-journey-visual"
+                  aria-hidden="true"
+                  style={{ background: "#f4f4f5", padding: 0, overflow: "hidden", order: i % 2 === 1 ? -1 : 1 }}
+                >
+                  <img
+                    src={item.previewImg}
+                    alt=""
+                    style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center", display: "block" }}
+                  />
+                </div>
+              ) : (
+                <div
+                  className="growth-journey-visual"
+                  aria-hidden="true"
+                  style={{ background: item.previewBg, order: i % 2 === 1 ? -1 : 1 }}
+                >
+                  <span className="feature-name" style={{ color: "#fff" }}>{item.previewLabel}</span>
+                  <FeaturePreviewDots />
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -479,7 +495,6 @@ export default function GrowthPage() {
       <GrowthNav />
       <main>
         <HeroSection />
-        <TrustBar />
         <FeatureJourneySection />
         <FeaturesGridSection />
         <WhyTailwindSection />
