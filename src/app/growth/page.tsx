@@ -418,9 +418,9 @@ function WhyTailwindSection() {
             </div>
             <div>
               <span className="founder-role">Founder and Fractional Growth Leader</span>
-              <h4>Baidy</h4>
+              <h4>Baidy Barton</h4>
               <p>
-                15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy is not a consultant who observes from the sideline. She is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that software alone cannot deliver.
+                15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy works fast and gets in the trenches with you. She is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that an AI-powered system alone cannot deliver.
               </p>
               <p style={{ marginTop: 16 }}>
                 <strong style={{ color: "var(--midnight)" }}>Her investment in your success is not a sales pitch. It is how the model works.</strong>
