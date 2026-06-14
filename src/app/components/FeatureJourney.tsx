@@ -100,7 +100,7 @@ export default function FeatureJourney() {
             <img className="star" src="/assets/logos/icon-fullcolour.svg" alt="" aria-hidden="true" />
             What working with Tailwind actually feels like
           </span>
-          <h2 style={{ fontSize: 40, margin: "16px 0 0" }}>Day-to-day, this is what changes.</h2>
+          <h2 className="disp" style={{ margin: "16px 0 0" }}>Day-to-day, this is what changes.</h2>
           <p>From keeping contacts warm to closing deals. From knowing your capacity to never losing sleep over the pipeline. Here is the journey, step by step.</p>
         </div>
 
