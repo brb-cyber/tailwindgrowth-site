@@ -345,22 +345,26 @@ const WHY_CARDS = [
   {
     heading: "Google CASA Tier 2 approved",
     body: "The same security bar required of enterprise Google Workspace integrations. Not common for early-stage SaaS. Your data, your pipeline, your client info, taken seriously.",
-    icon: "🔒",
+    iconBg: "var(--indigo-050)",
+    iconSrc: "/assets/logos/icon-fullcolour.svg",
   },
   {
     heading: "Built from the ground up for SMEs",
     body: "Not enterprise software turned down. Not a CRM adapted sideways. Every decision was made for how SME service businesses actually win work.",
-    icon: "🏗️",
+    iconBg: "var(--pine-100)",
+    iconSrc: "/assets/logos/icon-pine.svg",
   },
   {
     heading: "Works where you already work",
     body: "Runs inside Gmail, Google Calendar and Drive. No new inbox to check. No new tool to learn. No copy-pasting between systems. It slots into the tools you already live in.",
-    icon: "🔗",
+    iconBg: "var(--sky-tint)",
+    iconSrc: "/assets/logos/icon-fullcolour.svg",
   },
   {
     heading: "Join the Tailwind community",
     body: "You are not going it alone. Join a community of founders harnessing their tailwind. Share what is working, get a second opinion when a deal goes sideways, and grow alongside people who get it.",
-    icon: "🤝",
+    iconBg: "var(--lime-100)",
+    iconSrc: "/assets/logos/icon-pine.svg",
   },
 ]
 
@@ -380,7 +384,9 @@ function WhyTailwindSection() {
         <div className="growth-why-grid">
           {WHY_CARDS.map((card) => (
             <div key={card.heading} className="growth-why-card">
-              <div style={{ fontSize: 28, marginBottom: 14 }} aria-hidden="true">{card.icon}</div>
+              <div className="feature-ic" style={{ background: card.iconBg, marginBottom: 16 }} aria-hidden="true">
+                <img src={card.iconSrc} alt="" style={{ width: 26, height: 26 }} />
+              </div>
               <h4>{card.heading}</h4>
               <p>{card.body}</p>
             </div>
@@ -445,13 +451,21 @@ function BottomCtaSection() {
         >
           <CtaButton size="lg" />
         </Suspense>
-        <a
-          href="https://tailwindgrowth.ai"
-          className="growth-secondary-cta"
-          style={{ marginTop: 24, display: "block", fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.55)", textDecoration: "underline", textDecorationColor: "rgba(255,255,255,0.25)" }}
+        <Suspense
+          fallback={
+            <a
+              href="https://calendar.app.google/x2YHKEPb5wzDa4JY6"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="growth-secondary-cta"
+              style={{ marginTop: 24, display: "block", fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.55)", textDecoration: "underline", textDecorationColor: "rgba(255,255,255,0.25)" }}
+            >
+              Join a community of founders harnessing their tailwind
+            </a>
+          }
         >
-          Learn more about Tailwind Growth
-        </a>
+          <CtaButton variant="link" />
+        </Suspense>
       </div>
     </section>
   )

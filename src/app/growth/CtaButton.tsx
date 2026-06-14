@@ -5,7 +5,13 @@ import { useSearchParams } from "next/navigation"
 const BOOK_URL = "https://calendar.app.google/x2YHKEPb5wzDa4JY6"
 const BD_BUDDY_BASE = "https://buddy.tailwindgrowth.ai"
 
-export default function CtaButton({ size = "lg" }: { size?: "lg" | "md" }) {
+export default function CtaButton({
+  size = "lg",
+  variant = "button",
+}: {
+  size?: "lg" | "md"
+  variant?: "button" | "link"
+}) {
   const params = useSearchParams()
   const ref = params.get("ref")
   const token = params.get("token")
@@ -22,6 +28,20 @@ export default function CtaButton({ size = "lg" }: { size?: "lg" | "md" }) {
     isExternal = false
   } else {
     href = BOOK_URL
+  }
+
+  if (variant === "link") {
+    return (
+      <a
+        href={href}
+        target={isExternal ? "_blank" : undefined}
+        rel={isExternal ? "noopener noreferrer" : undefined}
+        className="growth-secondary-cta"
+        style={{ marginTop: 24, display: "block", fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.55)", textDecoration: "underline", textDecorationColor: "rgba(255,255,255,0.25)" }}
+      >
+        Join a community of founders harnessing their tailwind
+      </a>
+    )
   }
 
   return (
