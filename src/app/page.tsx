@@ -2,7 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import TheSystem from './components/TheSystem';
 import Services from './components/Services';
-import Steps from './components/Steps';
+import FeatureJourney from './components/FeatureJourney';
 import AboutFounder from './components/AboutFounder';
 import FAQ from './components/FAQ';
 import CTABand from './components/CTABand';
@@ -18,7 +18,7 @@ export default function Home() {
         <Hero bookUrl={BOOK_URL} />
         <TheSystem />
         <Services />
-        <Steps />
+        <FeatureJourney />
         <AboutFounder />
         <FAQ />
         <CTABand bookUrl={BOOK_URL} />
