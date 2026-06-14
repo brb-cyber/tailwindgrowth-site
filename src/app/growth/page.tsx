@@ -3,7 +3,6 @@ import { Suspense } from "react"
 import GrowthNav from "./GrowthNav"
 import Footer from "../components/Footer"
 import CtaButton from "./CtaButton"
-import Steps from "../components/Steps"
 
 export const metadata: Metadata = {
   title: "Growth on Your Terms | Tailwind Growth",
@@ -403,7 +402,6 @@ function WhyTailwindSection() {
           <h2 style={{ margin: "16px 0 0" }}>Not another growth tool.<br />A growth partner.</h2>
           <p>The platform and the person, working together, designed for businesses like yours.</p>
         </div>
-
         <div className="growth-why-grid">
           {WHY_CARDS.map((card) => (
             <div key={card.heading} className="growth-why-card">
@@ -414,25 +412,74 @@ function WhyTailwindSection() {
               <p>{card.body}</p>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
-          {/* Founder card */}
-          <div className="growth-founder-card">
-            <div className="growth-founder-photo-wrap">
-              <img
-                src="/assets/images/founder-baidy.jpg"
-                alt="Baidy, Founder of Tailwind Growth"
-              />
+function GrowthStepsSection() {
+  const steps = [
+    {
+      n: "01",
+      title: "Sign up & go live",
+      body: "Create your account in a minute. In parallel, we handle all the customisation for you — you don't touch a thing.",
+    },
+    {
+      n: "02",
+      title: "Growth strategy session",
+      body: "A focused session to co-create your growth strategy, set goals and markers, and design the plan to embed it.",
+    },
+    {
+      n: "03",
+      title: "Monthly accountability",
+      body: "We meet to work active opportunities, review your pipeline, share learnings and stay on track. Your growth partner, on call.",
+    },
+  ]
+  return (
+    <section className="section indigo">
+      <div className="container">
+        <div className="section-head">
+          <span className="eyebrow" style={{ color: "var(--lime)" }}>
+            <img className="star" src="/assets/logos/icon-fullcolour.svg" alt="" aria-hidden="true" />
+            Your journey
+          </span>
+          <h2 className="disp" style={{ margin: "16px 0 0" }}>It&apos;s as easy as.</h2>
+        </div>
+        <div className="steps">
+          {steps.map((s) => (
+            <div className="step" key={s.n}>
+              <div className="n disp">{s.n}</div>
+              <h4>{s.title}</h4>
+              <p>{s.body}</p>
             </div>
-            <div>
-              <span className="founder-role">Founder and Fractional Growth Leader</span>
-              <h4>Baidy Barton</h4>
-              <p>
-                15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy works fast and gets in the trenches with you. She is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that an AI-powered system alone cannot deliver.
-              </p>
-              <p style={{ marginTop: 16 }}>
-                <strong style={{ color: "var(--midnight)" }}>Her investment in your success is not a sales pitch. It is how the model works.</strong>
-              </p>
-            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function FounderSection() {
+  return (
+    <section className="section">
+      <div className="container">
+        <div className="growth-founder-card">
+          <div className="growth-founder-photo-wrap">
+            <img
+              src="/assets/images/founder-baidy.jpg"
+              alt="Baidy, Founder of Tailwind Growth"
+            />
+          </div>
+          <div>
+            <span className="founder-role">Founder and Fractional Growth Leader</span>
+            <h4>Baidy Barton</h4>
+            <p>
+              15 years building revenue for B2B businesses as a Commercialisation Director, Chief Revenue Officer, Investor and Partner at a global professional services firm. Baidy works fast and gets in the trenches with you. She is an embedded member of your team every month, working in your pipeline with you and executing the bespoke strategy that an AI-powered system alone cannot deliver.
+            </p>
+            <p style={{ marginTop: 16 }}>
+              <strong style={{ color: "var(--midnight)" }}>Her investment in your success is not a sales pitch. It is how the model works.</strong>
+            </p>
           </div>
         </div>
       </div>
@@ -504,8 +551,9 @@ export default function GrowthPage() {
         <HeroSection />
         <FeatureJourneySection />
         <FeaturesGridSection />
-        <Steps />
         <WhyTailwindSection />
+        <GrowthStepsSection />
+        <FounderSection />
         <BottomCtaSection />
       </main>
       <Footer />
