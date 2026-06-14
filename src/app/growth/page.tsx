@@ -3,6 +3,7 @@ import { Suspense } from "react"
 import GrowthNav from "./GrowthNav"
 import Footer from "../components/Footer"
 import CtaButton from "./CtaButton"
+import Steps from "../components/Steps"
 
 export const metadata: Metadata = {
   title: "Growth on Your Terms | Tailwind Growth",
@@ -105,6 +106,7 @@ const JOURNEY_ITEMS = [
     body: "Keep track of your contacts and automate relationship-building. Automated check-ins, emails and reminders keep you front of mind. See all your history with them in one place: emails, calendar and more. One-click convert to a lead.",
     previewLabel: "Contacts",
     previewBg: "linear-gradient(135deg, var(--pine) 0%, var(--pine-400) 100%)",
+    previewImg: "/assets/screenshots/contacts.png",
   },
   {
     label: "First Contact Automation",
@@ -112,6 +114,7 @@ const JOURNEY_ITEMS = [
     body: "Send personalised emails to inbound leads automatically, or with one click if you prefer, to schedule discovery calls and warm them up.",
     previewLabel: "First Contact",
     previewBg: "linear-gradient(135deg, var(--indigo) 0%, var(--indigo-700) 100%)",
+    previewImg: "/assets/screenshots/first-contact.png",
   },
   {
     label: "Meeting Prep",
@@ -119,6 +122,7 @@ const JOURNEY_ITEMS = [
     body: "Your pre-meeting brief, including company research, lands straight in your inbox before every call. Your transcript is then auto-imported so you can determine next steps without scrambling for notes.",
     previewLabel: "Meeting Brief",
     previewBg: "linear-gradient(135deg, var(--pine) 0%, var(--indigo) 100%)",
+    previewImg: "/assets/screenshots/meeting-brief.png",
   },
   {
     label: "Document Workflow",
@@ -126,6 +130,7 @@ const JOURNEY_ITEMS = [
     body: "It is all managed within the system for smooth client onboarding. Stop worrying about when docs need to go out or when to follow up. You will get reminded when to send and can do it in one click. Follow-ups are sorted too. Need to send a second version? Too easy. You will see the full message history. Peace of mind and a freed-up day.",
     previewLabel: "Send Proposal",
     previewBg: "linear-gradient(135deg, var(--indigo) 0%, var(--pine) 100%)",
+    previewImg: "/assets/screenshots/document-workflow.png",
   },
   {
     label: "Pipeline Visibility",
@@ -133,6 +138,7 @@ const JOURNEY_ITEMS = [
     body: "Get full visibility. See your next available slot to schedule a project. Know exactly when to start filling the pipeline again before you come up for air and find an empty patch ahead.",
     previewLabel: "Pipeline Forecast",
     previewBg: "linear-gradient(135deg, var(--pine-800) 0%, var(--pine) 100%)",
+    previewImg: "/assets/screenshots/pipeline-forecast.png",
   },
   {
     label: "Daily Direction",
@@ -164,6 +170,7 @@ const JOURNEY_ITEMS = [
     body: "Switching platforms is a painful chore you keep putting off. Not here. Import and migration are handled for you. Sign up, share one detail from your existing CRM, and the rest is done.",
     previewLabel: "One-Click Migration",
     previewBg: "linear-gradient(135deg, var(--indigo-700) 0%, var(--pine) 100%)",
+    previewImg: "/assets/screenshots/migration.png",
   },
 ]
 
@@ -497,6 +504,7 @@ export default function GrowthPage() {
         <HeroSection />
         <FeatureJourneySection />
         <FeaturesGridSection />
+        <Steps />
         <WhyTailwindSection />
         <BottomCtaSection />
       </main>
