@@ -15,7 +15,7 @@ export default function CtaButton({
   const params = useSearchParams()
   const ref = params.get("ref")
   const token = params.get("token")
-  const agreementId = params.get("agreementId")
+  const proposalId = params.get("proposalId")
 
   let href: string
   let isExternal = true
@@ -23,8 +23,8 @@ export default function CtaButton({
   if (ref === "discovery" && token) {
     href = `${BD_BUDDY_BASE}/api/go-decision/${token}`
     isExternal = false
-  } else if (ref === "proposal" && agreementId) {
-    href = `${BD_BUDDY_BASE}/api/agreement/sign/${agreementId}`
+  } else if (ref === "proposal" && proposalId) {
+    href = `${BD_BUDDY_BASE}/api/proposal/accept/${proposalId}`
     isExternal = false
   } else {
     href = BOOK_URL
