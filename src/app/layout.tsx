@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Tailwind Growth — AI-Native B2B Growth Partner Australia',
-    description: 'People-first, AI-native B2B growth partner for Australian founders. Fractional sales leader + growth system.',
+    description: 'People-first, AI-native B2B growth partner for Australian founders. Fractional growth leader + growth system.',
     images: ['/assets/images/team-office.jpg'],
   },
 };
@@ -50,7 +50,7 @@ const orgSchema = {
       '@type': 'Person',
       '@id': 'https://tailwindgrowth.ai/#baidy',
       name: 'Baidy',
-      jobTitle: 'Founder & Fractional Sales Leader',
+      jobTitle: 'Founder & Fractional CRO | Growth Leader',
       worksFor: { '@id': 'https://tailwindgrowth.ai/#org' },
       description:
         'B2B revenue expert with 15+ years\' experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company and Partner at a global professional services firm.',
