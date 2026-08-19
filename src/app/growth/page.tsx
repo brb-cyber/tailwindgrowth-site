@@ -378,6 +378,9 @@ function FounderSection() {
             <p style={{ marginTop: 16 }}>
               <strong style={{ color: "var(--midnight)" }}>Her investment in your success is not a sales pitch. It is how the model works.</strong>
             </p>
+            <a href="/fractional-cro/" className="growth-journey-cta" style={{ marginTop: 16 }}>
+              Learn more about your fractional CRO &rarr;
+            </a>
           </div>
         </div>
       </div>

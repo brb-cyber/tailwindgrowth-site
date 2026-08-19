@@ -354,6 +354,12 @@ img{display:block;max-width:100%;}
   border:none;}
 .growth-journey-visual .feature-name{font-family:var(--font-display);font-size:24px;text-transform:uppercase;
   text-align:center;letter-spacing:.4px;}
+.growth-journey-item--link{cursor:pointer;text-decoration:none;color:inherit;
+  transition:transform .2s ease,box-shadow .2s ease;}
+.growth-journey-item--link:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg);}
+.growth-journey-cta{display:inline-block;margin-top:18px;font-size:14px;font-weight:600;color:var(--indigo);}
+.growth-journey-item--link:hover .growth-journey-cta{text-decoration:underline;}
+.growth-journey-cta:hover{text-decoration:underline;}
 
 /* Hero feature cards */
 .growth-hero-features{display:grid;grid-template-columns:repeat(2,1fr);gap:28px;margin-top:56px;}
@@ -416,3 +422,47 @@ img{display:block;max-width:100%;}
   .growth-hero-h1{font-size:38px;}
   .growth-hero-motif{display:none;}
 }
+
+/* Fractional CRO page — Who This Is For */
+.cro-who-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:48px;}
+.cro-who-col{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:32px;}
+.cro-who-col h4{font-size:17px;font-weight:700;color:var(--midnight);margin:0 0 18px;}
+.cro-who-col ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;}
+.cro-who-col li{font-size:15px;line-height:1.6;color:var(--ink-500);padding-left:24px;position:relative;}
+.cro-who-col li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;
+  border-radius:50%;background:var(--indigo);}
+.cro-who-col--not li::before{background:var(--ink-300);}
+@media(max-width:920px){
+  .cro-who-grid{grid-template-columns:1fr;}
+}
+
+/* Fractional CRO page — Lifecycle stepper */
+.cro-stepper{margin-top:48px;}
+.cro-stepper-nav{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;
+  border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
+.cro-stepper-tab{display:flex;flex-direction:column;gap:6px;align-items:flex-start;
+  flex:0 0 auto;padding:14px 18px;border:none;background:none;cursor:pointer;
+  border-bottom:3px solid transparent;white-space:nowrap;text-align:left;font-family:var(--font-body);}
+.cro-stepper-num{font-family:var(--font-display);font-size:13px;color:var(--ink-300);}
+.cro-stepper-label{font-size:14px;font-weight:600;color:var(--ink-500);}
+.cro-stepper-tab.active{border-bottom-color:var(--indigo);}
+.cro-stepper-tab.active .cro-stepper-num{color:var(--indigo);}
+.cro-stepper-tab.active .cro-stepper-label{color:var(--midnight);}
+.cro-stepper-panel{display:grid;grid-template-columns:1fr 1.4fr;gap:40px;margin-top:40px;}
+.cro-stepper-eyebrow{display:block;font-size:12px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--indigo);margin-bottom:12px;}
+.cro-stepper-covered p{font-size:16px;line-height:1.6;color:var(--midnight);margin:0;font-weight:500;}
+.cro-stepper-problems ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;}
+.cro-stepper-problems li{font-size:15px;line-height:1.6;color:var(--ink-500);padding-left:22px;position:relative;}
+.cro-stepper-problems li::before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;
+  border-radius:50%;background:var(--indigo);}
+@media(max-width:760px){
+  .cro-stepper-panel{grid-template-columns:1fr;gap:24px;}
+}
+
+/* Fractional CRO page — How We Work Together: icon card grid (reuses .growth-why-grid/.growth-why-card) */
+.cro-work-cards p{margin:0 0 12px;}
+.cro-work-cards ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;}
+.cro-work-cards li{font-size:14px;line-height:1.5;color:var(--ink-500);padding-left:20px;position:relative;}
+.cro-work-cards li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;
+  border-radius:50%;background:var(--indigo);}

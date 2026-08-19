@@ -45,6 +45,9 @@ export default function AboutFounder() {
             Australia&apos;s go-to revenue expert for B2B
             <span className="text-indigo">.</span>
           </p>
+          <a href="/fractional-cro/" className="growth-journey-cta" style={{ marginTop: 16 }}>
+            Learn more about your fractional CRO &rarr;
+          </a>
         </div>
       </div>
     </section>

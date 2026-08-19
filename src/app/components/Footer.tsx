@@ -1,7 +1,8 @@
 const COMPANY_LINKS = [
-  { label: 'The System', href: '#thesystem' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
+  { label: 'The System', href: '/#thesystem' },
+  { label: 'Services', href: '/#services' },
+  { label: 'How We Help', href: '/fractional-cro/' },
+  { label: 'About', href: '/#about' },
   { label: 'Insights', href: '/insights/' },
 ];
 

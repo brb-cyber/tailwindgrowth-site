@@ -3,9 +3,10 @@
 import { useState } from 'react';
 
 const NAV_LINKS = [
-  { label: 'The System', href: '#thesystem' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
+  { label: 'The System', href: '/#thesystem' },
+  { label: 'Services', href: '/#services' },
+  { label: 'How We Help', href: '/fractional-cro/' },
+  { label: 'About', href: '/#about' },
   { label: 'Insights', href: '/insights' },
 ];
 
@@ -17,7 +18,7 @@ export default function Nav({ bookUrl }: { bookUrl: string }) {
   return (
     <header className="nav">
       <div className="container nav-inner">
-        <a href="#top" aria-label="Tailwind Growth home">
+        <a href="/#top" aria-label="Tailwind Growth home">
           <img className="nav-logo" src="/assets/logos/logo-main-black.svg" alt="Tailwind Growth" />
         </a>
         <nav className="nav-links" aria-label="Main navigation">

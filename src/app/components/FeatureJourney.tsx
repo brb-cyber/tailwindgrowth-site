@@ -50,7 +50,7 @@ const JOURNEY_ITEMS = [
   {
     label: "Deal Unsticker",
     heading: "Deal stuck?",
-    body: "Your Sales Advisor Agent gives you on-demand advice on what action to take to move that specific opportunity forward. Your own sales advisor, without the commission.",
+    body: "Your Sales Advisor Agent gives you on-demand advice on what action to take to move that specific opportunity forward. Your own deal advisor, without the commission.",
     previewLabel: "Sales Advisor",
     previewBg: "linear-gradient(135deg, var(--pine) 0%, var(--indigo) 100%)",
     previewImg: "/assets/screenshots/sales-advisor.png",
@@ -105,43 +105,66 @@ export default function FeatureJourney() {
         </div>
 
         <div style={{ marginTop: 64 }}>
-          {JOURNEY_ITEMS.map((item, i) => (
-            <div
-              key={item.heading}
-              className="growth-journey-item"
-              style={item.isKeyDifferentiator ? { background: "var(--indigo-050)", borderRadius: "var(--r-xl)", padding: "48px", border: "1px solid var(--indigo-100)", marginBottom: 0 } : {}}
-            >
-              <div className="growth-journey-text">
-                <div className="growth-journey-label">{item.label}</div>
-                <h3 style={item.isKeyDifferentiator ? { fontSize: 30, color: "var(--indigo)" } : {}}>
-                  {item.heading}
-                </h3>
-                <p>{item.body}</p>
+          {JOURNEY_ITEMS.map((item, i) => {
+            const inner = (
+              <>
+                <div className="growth-journey-text">
+                  <div className="growth-journey-label">{item.label}</div>
+                  <h3 style={item.isKeyDifferentiator ? { fontSize: 30, color: "var(--indigo)" } : {}}>
+                    {item.heading}
+                  </h3>
+                  <p>{item.body}</p>
+                  {item.isKeyDifferentiator && (
+                    <span className="growth-journey-cta" aria-hidden="true">
+                      Learn more about your fractional CRO &rarr;
+                    </span>
+                  )}
+                </div>
+                {item.previewImg ? (
+                  <div
+                    className="growth-journey-visual"
+                    aria-hidden="true"
+                    style={{ background: "#f4f4f5", padding: 0, overflow: "hidden", order: i % 2 === 1 ? -1 : 1, alignItems: "flex-start", justifyContent: "stretch" }}
+                  >
+                    <img
+                      src={item.previewImg}
+                      alt=""
+                      style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "top center", display: "block" }}
+                    />
+                  </div>
+                ) : (
+                  <div
+                    className="growth-journey-visual"
+                    aria-hidden="true"
+                    style={{ background: item.previewBg, order: i % 2 === 1 ? -1 : 1 }}
+                  >
+                    <span className="feature-name" style={{ color: "#fff" }}>{item.previewLabel}</span>
+                    <FeaturePreviewDots />
+                  </div>
+                )}
+              </>
+            )
+
+            if (item.isKeyDifferentiator) {
+              return (
+                <a
+                  key={item.heading}
+                  href="/fractional-cro/"
+                  className="growth-journey-item growth-journey-item--link"
+                  style={{ background: "var(--indigo-050)", borderRadius: "var(--r-xl)", padding: "48px", border: "1px solid var(--indigo-100)", marginBottom: 0 }}
+                  aria-label="Your own growth leader: learn more about the fractional CRO service"
+                >
+                  {inner}
+                </a>
+              )
+            }
+
+            return (
+              <div key={item.heading} className="growth-journey-item">
+                {inner}
               </div>
-              {item.previewImg ? (
-                <div
-                  className="growth-journey-visual"
-                  aria-hidden="true"
-                  style={{ background: "#f4f4f5", padding: 0, overflow: "hidden", order: i % 2 === 1 ? -1 : 1, alignItems: "flex-start", justifyContent: "stretch" }}
-                >
-                  <img
-                    src={item.previewImg}
-                    alt=""
-                    style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "top center", display: "block" }}
-                  />
-                </div>
-              ) : (
-                <div
-                  className="growth-journey-visual"
-                  aria-hidden="true"
-                  style={{ background: item.previewBg, order: i % 2 === 1 ? -1 : 1 }}
-                >
-                  <span className="feature-name" style={{ color: "#fff" }}>{item.previewLabel}</span>
-                  <FeaturePreviewDots />
-                </div>
-              )}
-            </div>
-          ))}
+            )
+          })}
         </div>
       </div>
     </section>

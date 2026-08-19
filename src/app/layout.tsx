@@ -81,6 +81,7 @@ const orgSchema = {
       provider: { '@id': 'https://tailwindgrowth.ai/#org' },
       description:
         'A seasoned fractional growth leader embedded in your business — strategy, accountability, and senior growth support without a full-time hire. Works directly with every client.',
+      url: 'https://tailwindgrowth.ai/fractional-cro/',
       areaServed: 'AU',
       serviceType: 'Fractional Growth Leader',
     },
