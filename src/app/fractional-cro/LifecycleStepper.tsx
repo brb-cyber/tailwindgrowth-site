@@ -43,7 +43,7 @@ const STAGES = [
     problems: [
       'New clients arrive with no formal onboarding sequence, inconsistent across customers',
       'Low early adoption discipline on a new platform or system',
-      'Migrating a founder off ad hoc tools like spreadsheets, without adding admin burden',
+      'Migrating from manual tools like spreadsheets to automated systems, without adding admin or implementation burden',
       'Risk of running parallel systems during onboarding, creating duplicate data entry',
     ],
   },
@@ -52,9 +52,9 @@ const STAGES = [
     covered: 'Customer success, account management, revenue retention, land and expand, stickiness.',
     problems: [
       'Utilisation running above 100% for consecutive months, no capacity buffer',
-      'Revenue concentrated in one or two anchor clients, exposing the business to a large swing',
-      'No system for delegating or upskilling the team so the founder can step back from delivery',
-      'Wants an accountability cadence but is inconsistent using the system between sessions',
+      'Revenue concentrated in one or two anchor clients, exposing your business to a large swing',
+      'No system for delegating or upskilling the team so you can step back from delivery',
+      "Wants an accountability cadence but doesn't have someone internally to support you",
       'Cross-sell or expand opportunity sitting unused in an existing relationship',
     ],
   },
@@ -74,13 +74,13 @@ const STAGES = [
     name: 'RevOps',
     covered: 'Data, tooling, process and systems, metrics, playbooks.',
     problems: [
-      "Pipeline prioritisation logic exists only in the founder's head, not systemised",
+      'Pipeline prioritisation logic exists only in your head, not systemised',
       'Manual, hours long reporting process with an uncertain path to needed compliance certification',
       'Poor CRM or contact data hygiene. Target lists thin or stale',
       'Core admin tooling breaks under real use, forcing workarounds',
       'No capacity or utilisation forecasting tying pipeline to when you need to start winning new work',
-      "No central knowledge base or playbook repository. Process knowledge lives in the founder's head",
-      'Billing or utilisation cadence mismatched to how the business actually runs',
+      'No central knowledge base or playbook repository. Process knowledge lives in your head',
+      'Billing or utilisation cadence mismatched to how your business actually runs',
     ],
   },
 ]
