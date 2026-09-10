@@ -257,7 +257,7 @@ function SolutionSection() {
               Five weekly 2-hour sessions, plus three monthly follow-up accountability sessions after the program ends. Eight sessions in total, all built around practical action.
             </p>
             <p style={{ marginTop: 16 }}>
-              {CURRENT_COHORT.schedule}, at {CURRENT_COHORT.venue}. You leave each week with something built and ready to be implemented the same day.
+              {CURRENT_COHORT.schedule}, at {CURRENT_COHORT.venue} (or online if you can&apos;t make it face to face). You leave each week with something built and ready to be implemented the same day.
             </p>
           </div>
           <div className="growth-why-card">
@@ -387,7 +387,7 @@ function SupportersSection() {
 // ─── Investment ─────────────────────────────────────────────────────────────────
 
 const INCLUDES = [
-  "Five 2-hour in-person sessions",
+  "Five 2-hour in-person sessions (or you can attend online if needed)",
   "Three monthly accountability sessions after the program ends",
   "Every artifact you build along the way: your ICP, growth strategy, 12-month and 90-day plans, pipeline stage map, lead source audit, qualification filter, follow-up templates, pipeline tracker, metrics snapshot, delegation map, and one working AI automation",
   "Ongoing access to your digital workbook to hold everything you've built",

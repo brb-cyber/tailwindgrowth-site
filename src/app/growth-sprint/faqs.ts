@@ -33,4 +33,12 @@ export const GROWTH_SPRINT_FAQS = [
     q: 'I run a product business. Is this program for me?',
     a: 'Yes, absolutely! As long as you identify as a B2B business (ie your customers are other businesses), this program will equip you with everything you need to grow.',
   },
+  {
+    q: 'I started my business this year. Is this program for me?',
+    a: "Yes, it absolutely is. Now is the right time to take a step back and evaluate your progress to date, shape your growth strategy and get tactical support to take it to the next level. This is also the best place to come and build your community of fellow business owners at similar stages in their journey. It'll be the best decision you make all year.",
+  },
+  {
+    q: "I can't attend in-person but I really want to be part of the program. Can I still join the program?",
+    a: "Yes! Even though it'd be great for you to meet everyone in person, we appreciate that location and distance can make that hard, and we want to make this program to accessible to as many people as possible. Please signup and we'll see you online!",
+  },
 ]
