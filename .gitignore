@@ -5,3 +5,4 @@
 *.pem
 .env*
 !.env.example
+*.tsbuildinfo

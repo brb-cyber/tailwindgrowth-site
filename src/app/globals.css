@@ -466,3 +466,72 @@ img{display:block;max-width:100%;}
 .cro-work-cards li{font-size:14px;line-height:1.5;color:var(--ink-500);padding-left:20px;position:relative;}
 .cro-work-cards li::before{content:"";position:absolute;left:0;top:7px;width:5px;height:5px;
   border-radius:50%;background:var(--indigo);}
+
+/* Growth Sprint page — Curriculum stepper panel (reuses .cro-stepper-nav/.cro-stepper-tab for the tab bar) */
+.sprint-stepper-panel{margin-top:40px;max-width:760px;}
+.sprint-stepper-question{font-family:var(--font-display);font-size:26px;text-transform:none;
+  color:var(--midnight);margin:0 0 18px;line-height:1.25;letter-spacing:.2px;}
+.sprint-stepper-panel > p{font-size:16px;line-height:1.65;color:var(--ink-500);margin:0 0 22px;}
+.sprint-stepper-output{background:var(--indigo-050);border:1px solid var(--indigo-100);
+  border-radius:var(--r-lg);padding:22px 26px;}
+.sprint-stepper-output span{display:block;font-size:12px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--indigo);margin-bottom:10px;}
+.sprint-stepper-output p{margin:0;font-size:15px;line-height:1.6;color:var(--midnight);font-weight:500;}
+.sprint-stepper-output--takeaway{background:var(--lime-100);border-color:var(--lime-600);}
+.sprint-stepper-output--takeaway span{color:var(--pine);}
+
+/* Growth Sprint page — Solution section: 3-up card row (own grid, not .growth-why-grid,
+   so it doesn't affect the 2-up grid that /fractional-cro/ reuses). Cards reuse
+   .growth-why-card for the shared white/border/padding chrome. */
+.sprint-solution-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+@media(max-width:920px){
+  .sprint-solution-grid{grid-template-columns:repeat(2,1fr);}
+  .sprint-solution-grid>:nth-child(3){grid-column:1/-1;}
+}
+@media(max-width:600px){
+  .sprint-solution-grid{grid-template-columns:1fr;}
+  .sprint-solution-grid>:nth-child(3){grid-column:auto;}
+}
+
+/* Growth Sprint page — Hero program-name kicker (standard .eyebrow, bigger font size) */
+.sprint-program-kicker{font-size:22px;}
+
+/* Growth Sprint page — Pull-quote emphasis line (Problem section) */
+.sprint-pullquote{font-size:20px;line-height:1.5;font-weight:600;color:var(--midnight);
+  border-left:4px solid var(--lime);padding:4px 0 4px 22px;margin:28px 0 0;}
+
+/* Growth Sprint page — Post-program accountability block */
+.sprint-accountability{margin-top:56px;background:var(--pine);border-radius:var(--r-xl);padding:40px;}
+.sprint-accountability h4{font-size:22px;color:#fff;margin:0 0 8px;}
+.sprint-accountability > p{color:var(--fg-invert-2);margin:0;font-size:15px;line-height:1.6;max-width:640px;}
+
+/* Growth Sprint page — Supporters banner */
+.sprint-supporters{padding:96px 0;text-align:center;background:var(--sky);}
+.sprint-supporters-label{display:block;font-size:26px;font-weight:700;color:var(--midnight);margin-bottom:48px;}
+.sprint-supporters-row{display:flex;align-items:center;justify-content:center;gap:64px;flex-wrap:wrap;}
+.sprint-supporters-row img{height:128px;width:auto;object-fit:contain;}
+.sprint-supporter-chip{background:var(--midnight);border-radius:var(--r-md);padding:20px 32px;
+  display:flex;align-items:center;}
+.sprint-supporter-chip img{height:92px;}
+@media(max-width:600px){
+  .sprint-supporters-row{gap:36px;}
+  .sprint-supporters-row img{height:88px;}
+  .sprint-supporter-chip img{height:64px;}
+}
+
+/* Growth Sprint page — Investment section */
+.sprint-investment{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;margin-top:48px;align-items:stretch;}
+.sprint-investment-card{background:var(--pine);color:#fff;border-radius:var(--r-xl);padding:44px;}
+.sprint-investment-fee{font-size:19px;font-weight:700;color:var(--lime);margin:0;}
+.sprint-investment-card > p{font-size:15px;line-height:1.6;color:rgba(255,255,255,.86);margin:20px 0 0;}
+.sprint-investment-value{font-size:13px;line-height:1.6;color:rgba(255,255,255,.65);margin-top:22px;
+  padding-top:22px;border-top:1px solid rgba(255,255,255,.16);}
+.sprint-investment-includes{background:#fff;border:1px solid var(--line);border-radius:var(--r-xl);padding:40px;}
+.sprint-investment-includes h4{font-size:17px;font-weight:700;color:var(--midnight);margin:0 0 20px;}
+.sprint-investment-includes ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:13px;}
+.sprint-investment-includes li{font-size:15px;line-height:1.6;color:var(--ink-500);padding-left:24px;position:relative;}
+.sprint-investment-includes li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;
+  border-radius:50%;background:var(--indigo);}
+@media(max-width:920px){
+  .sprint-investment{grid-template-columns:1fr;}
+}
