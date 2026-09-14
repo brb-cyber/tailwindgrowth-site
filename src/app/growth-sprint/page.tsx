@@ -123,6 +123,9 @@ function HeroSection() {
           <p className="growth-hero-lead">
             A 5-week sprint that takes you from &ldquo;who are we chasing?&rdquo; to &ldquo;here&apos;s the system that brings in work&rdquo;, plus the follow-up to make sure it delivers.
           </p>
+          <p style={{ marginBottom: 14, fontSize: 14, fontWeight: 600, color: "var(--lime)", letterSpacing: ".04em" }}>
+            Only 15 spots — applications close 21 October.
+          </p>
           <div className="growth-hero-cta">
             <a
               className="btn btn-accent"
@@ -131,7 +134,7 @@ function HeroSection() {
               rel="noopener noreferrer"
               style={{ fontSize: 17, padding: "17px 40px" }}
             >
-              Sign up now
+              Secure your spot
             </a>
           </div>
           <p style={{ marginTop: 22, fontSize: 14, fontWeight: 600, color: "var(--lime)", letterSpacing: ".04em" }}>
@@ -424,7 +427,7 @@ function InvestmentSection() {
               rel="noopener noreferrer"
               style={{ marginTop: 28, width: "100%", justifyContent: "center", fontSize: 16, padding: "15px 32px" }}
             >
-              Sign up now
+              Secure your spot
             </a>
           </div>
           <div className="sprint-investment-includes">
@@ -457,8 +460,14 @@ function CtaSection() {
           Sign up for the<br />
           <span style={{ color: "var(--lime)" }}>Built to Grow Sprint.</span>
         </h2>
-        <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 36px" }}>
+        <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
+          Leave your worries about where your next client is coming from behind. Start 2027 in control of your business&apos;s growth.
+        </p>
+        <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
           Five Wednesdays. One system. Three months of follow-up to make sure it delivers.
+        </p>
+        <p style={{ fontSize: 15, fontWeight: 600, color: "var(--lime)", maxWidth: 460, margin: "0 auto 24px" }}>
+          Only 15 spots available. Applications close 21 October — sooner if we fill up.
         </p>
         <a
           className="btn btn-accent"
@@ -467,7 +476,7 @@ function CtaSection() {
           rel="noopener noreferrer"
           style={{ fontSize: 17, padding: "17px 40px" }}
         >
-          Sign up now
+          Secure your spot
         </a>
         <p style={{ marginTop: 24, fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.55)" }}>
           Kicking off {CURRENT_COHORT.startDateLabel}. See you there!
