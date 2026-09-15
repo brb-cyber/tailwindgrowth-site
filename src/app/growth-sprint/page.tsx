@@ -457,7 +457,7 @@ function CtaSection() {
       />
       <div className="container" style={{ position: "relative" }}>
         <h2 className="disp" style={{ fontSize: 60, color: "#fff", marginBottom: 20 }}>
-          Sign up for the<br />
+          Secure your spot in the<br />
           <span style={{ color: "var(--lime)" }}>Built to Grow Sprint.</span>
         </h2>
         <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
