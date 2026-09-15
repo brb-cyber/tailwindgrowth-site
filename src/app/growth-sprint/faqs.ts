@@ -41,4 +41,8 @@ export const GROWTH_SPRINT_FAQS = [
     q: "I can't attend in-person but I really want to be part of the program. Can I still join the program?",
     a: "Yes! Even though it'd be great for you to meet everyone in person, we appreciate that location and distance can make that hard, and we want to make this program to accessible to as many people as possible. Please signup and we'll see you online!",
   },
+  {
+    q: "I've launched my own fractional business. Is this program for me?",
+    a: "Yes, absolutely! I've been in your shoes. This is the perfect program for you to implement systems and structure to grow your fractional business into one that's sustainable, scalable, enduring and one you love.",
+  },
 ]
