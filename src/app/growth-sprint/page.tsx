@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
+import Testimonials from "../components/Testimonials"
 import CurriculumStepper from "./CurriculumStepper"
 import FaqSection from "./FaqSection"
 import { GROWTH_SPRINT_FAQS } from "./faqs"
@@ -498,6 +499,7 @@ export default function GrowthSprintPage() {
         <SolutionSection />
         <CurriculumSection />
         <TrustSection />
+        <Testimonials />
         <SupportersSection />
         <InvestmentSection />
         <FaqSection />

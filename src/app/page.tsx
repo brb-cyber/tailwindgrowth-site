@@ -4,6 +4,7 @@ import TheSystem from './components/TheSystem';
 import Services from './components/Services';
 import FeatureJourney from './components/FeatureJourney';
 import AboutFounder from './components/AboutFounder';
+import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import CTABand from './components/CTABand';
 import Footer from './components/Footer';
@@ -20,6 +21,7 @@ export default function Home() {
         <Services />
         <FeatureJourney />
         <AboutFounder />
+        <Testimonials />
         <FAQ />
         <CTABand bookUrl={BOOK_URL} />
       </main>
