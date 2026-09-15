@@ -463,9 +463,6 @@ function CtaSection() {
         <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
           Leave your worries about where your next client is coming from behind. Start 2027 in control of your business&apos;s growth.
         </p>
-        <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
-          Five Wednesdays. One system. Three months of follow-up to make sure it delivers.
-        </p>
         <p style={{ fontSize: 15, fontWeight: 600, color: "var(--lime)", maxWidth: 460, margin: "0 auto 24px" }}>
           Only 15 spots available. Applications close 21 October — sooner if we fill up.
         </p>
