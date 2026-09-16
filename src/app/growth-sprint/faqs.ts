@@ -45,4 +45,12 @@ export const GROWTH_SPRINT_FAQS = [
     q: "I've launched my own fractional business. Is this program for me?",
     a: "Yes, absolutely! I've been in your shoes. This is the perfect program for you to implement systems and structure to grow your fractional business into one that's sustainable, scalable, enduring and one you love.",
   },
+  {
+    q: 'How do I get there? Is there parking?',
+    a: 'If you\'re attending face-to-face, head up to <a href="https://share.google/kUX217yghEw7e9bfN" target="_blank" rel="noopener noreferrer">Dashworks</a>, check in upstairs at reception and they\'ll take you through to the room where the magic will happen. Parking is easy too! You can park for free for up to 3 hours at Charlestown Square. Enter the car park closest to Dashworks for the shortest walk.',
+  },
+  {
+    q: "I'm attending online. How do I access the sessions?",
+    a: "We'll share the videoconference details in the lead up to the program kick-off. Stay tuned.",
+  },
 ]

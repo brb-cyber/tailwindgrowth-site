@@ -28,7 +28,7 @@ export default function FaqSection() {
                 <span className="faq-ic" aria-hidden="true"></span>
               </button>
               <div className="faq-a" aria-hidden={openIndex !== i}>
-                <p>{f.a}</p>
+                <p dangerouslySetInnerHTML={{ __html: f.a }} />
               </div>
             </div>
           ))}
