@@ -43,18 +43,24 @@ const orgSchema = {
       sameAs: [
         'https://www.linkedin.com/company/tailwind-growth/',
         'https://www.instagram.com/tailwind_growth/',
+        'https://growthgossip.substack.com/',
       ],
       address: { '@type': 'PostalAddress', addressRegion: 'NSW', addressCountry: 'AU' },
     },
     {
       '@type': 'Person',
       '@id': 'https://tailwindgrowth.ai/#baidy',
-      name: 'Baidy',
+      name: 'Baidy Barton',
+      givenName: 'Baidy',
+      familyName: 'Barton',
       jobTitle: 'Founder & Fractional CRO | Growth Leader',
       worksFor: { '@id': 'https://tailwindgrowth.ai/#org' },
       description:
         'B2B revenue expert with 15+ years\' experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company and Partner at a global professional services firm.',
-      sameAs: ['https://www.linkedin.com/company/tailwind-growth/'],
+      sameAs: [
+        'https://www.linkedin.com/in/baidybarton/',
+        'https://growthgossip.substack.com/',
+      ],
       knowsAbout: [
         'B2B growth',
         'client acquisition',

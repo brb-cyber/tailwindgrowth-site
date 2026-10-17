@@ -51,6 +51,8 @@ _Agreed 2026-05-31 — Last updated 2026-05-31_
   - Checks: technical health, search presence, AI answer presence
   - Includes: traffic light status, prioritised action list, Insights page reminder
   - Manage at: https://claude.ai/code/routines/trig_01Gob3qaupbfKmH3ttDihn6J
+  - Runs in the **Default** cloud environment, which must have Network access = **Limited** with `tailwindgrowth.ai` and `*.tailwindgrowth.ai` in its allowed domains. Without that, technical checks fail with 403 / EGRESS_BLOCKED / ENOTFOUND (the cause of the false "site down" alert on 15 Oct 2026; fixed 17 Oct 2026).
+  - Prompt treats sandbox network errors as 🟡 "Unverified", not 🔴 site down.
 
 ---
 

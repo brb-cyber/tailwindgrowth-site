@@ -1,30 +1,16 @@
 import { MetadataRoute } from 'next';
 
+const BASE = 'https://tailwindgrowth.ai';
+
+// No lastModified on fixed pages: a date that changes on every build tells
+// search engines nothing. Dated content (Insights articles) carries its own.
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    {
-      url: 'https://tailwindgrowth.ai/',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
-    },
-    {
-      url: 'https://tailwindgrowth.ai/fractional-cro/',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: 'https://tailwindgrowth.ai/growth-sprint/',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: 'https://tailwindgrowth.ai/insights/',
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7,
-    },
+    { url: `${BASE}/`, changeFrequency: 'monthly', priority: 1 },
+    { url: `${BASE}/fractional-cro/`, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${BASE}/growth-sprint/`, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/insights/`, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/insights/abc-command/`, changeFrequency: 'yearly', priority: 0.5 },
+    { url: `${BASE}/insights/notes-command/`, changeFrequency: 'yearly', priority: 0.5 },
   ];
 }
