@@ -22,6 +22,11 @@ Founders and owners of B2B services businesses — lawyers, accountants, enginee
 - [Fractional CRO & Growth Leader](https://tailwindgrowth.ai/fractional-cro/): The ongoing service: a fractional growth leader plus the AI-powered growth system, across the whole customer lifecycle, month to month.
 - [Built to Grow Sprint](https://tailwindgrowth.ai/growth-sprint/): A 5-week program for B2B founders who've grown on referrals and hit a ceiling, taking them from "who are we chasing?" to a system that brings in work.
 - [Insights](https://tailwindgrowth.ai/insights/): Articles on B2B growth, client acquisition and AI for professional services founders.
+- [Why B2B founders hit a referral ceiling — and how to break through it](https://tailwindgrowth.ai/insights/referral-ceiling/): Why referral-led growth plateaus after a year or two, the signs, and the system that gets founders through.
+- [How do you grow a professional services business without hiring?](https://tailwindgrowth.ai/insights/grow-professional-services-business-without-hiring/): Automate the 70% of winning work that's admin, lead sales yourself, and use a fractional growth leader instead of an early sales hire.
+- [What are the alternatives to a marketing agency for B2B client acquisition?](https://tailwindgrowth.ai/insights/alternatives-to-marketing-agency-b2b/): Advocates, partnerships, direct outreach, being in the room, and a pipeline system, and when marketing makes sense.
+- [What does "AI-native" actually mean for a B2B services business?](https://tailwindgrowth.ai/insights/what-ai-native-means-for-services/): AI-native vs AI-added, why the margin hype misses the point, and why people still come first.
+- [Why pipeline concentration is a growth risk](https://tailwindgrowth.ai/insights/pipeline-concentration-risk/): How relying on a few clients causes feast or famine, and how to reduce the risk.
 - [/abc command guide](https://tailwindgrowth.ai/insights/abc-command/): Free Claude Code command that checks writing for spelling and grammar in Australian English.
 - [/notes command guide](https://tailwindgrowth.ai/insights/notes-command/): Free Claude Code command that turns photos of handwritten notes into dated markdown files.
 

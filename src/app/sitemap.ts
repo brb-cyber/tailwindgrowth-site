@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next';
+import { POSTS } from './insights/posts';
 
 const BASE = 'https://tailwindgrowth.ai';
 
@@ -12,5 +13,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/insights/`, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE}/insights/abc-command/`, changeFrequency: 'yearly', priority: 0.5 },
     { url: `${BASE}/insights/notes-command/`, changeFrequency: 'yearly', priority: 0.5 },
+    ...POSTS.map((p) => ({
+      url: `${BASE}/insights/${p.slug}/`,
+      lastModified: p.updated ?? p.date,
+      changeFrequency: 'yearly' as const,
+      priority: 0.6,
+    })),
   ];
 }
