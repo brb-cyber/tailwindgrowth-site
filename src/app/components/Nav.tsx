@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { label: 'How We Help', href: '/fractional-cro/' },
   { label: 'Built to Grow Sprint', href: '/growth-sprint/' },
   { label: 'About', href: '/#about' },
-  { label: 'Insights', href: '/insights' },
+  { label: 'Insights', href: '/insights/' },
 ];
 
 export default function Nav({ bookUrl }: { bookUrl: string }) {
