@@ -558,3 +558,99 @@ img{display:block;max-width:100%;}
 @media(max-width:920px){
   .sprint-investment{grid-template-columns:1fr;}
 }
+
+/* ============================================================
+   PARTNER PAGES (/partners/[partner]/ and /share/)
+   ============================================================ */
+
+/* Offer page — hero meta line */
+.partner-hero-lead{text-wrap:pretty;}
+.partner-hero-meta{margin:22px 0 0;font-size:14px;font-weight:600;color:var(--lime);letter-spacing:.04em;}
+
+/* Offer page — price line on the "after the call" cards */
+.growth-why-card .partner-price{margin-top:18px;font-size:17px;font-weight:700;color:var(--indigo);}
+
+
+/* Offer page — Why Baidy: person column + proof tiles + closing card.
+   Both columns stretch to the same height; the photo fills the spare space so
+   the name lines up with the bottom of the closing card. */
+.partner-why-head{max-width:none;}
+.partner-why-head h2{text-wrap:balance;}
+.partner-why{display:grid;grid-template-columns:280px 1fr;gap:48px;margin-top:48px;}
+.partner-why-person{display:flex;flex-direction:column;}
+.partner-why-person .growth-founder-photo-wrap{flex:1;min-height:320px;aspect-ratio:auto;}
+.partner-why-person .founder-role{font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--indigo);display:block;margin:20px 0 8px;}
+.partner-why-person h4{font-family:var(--font-display);font-size:32px;text-transform:uppercase;
+  color:var(--midnight);margin:0;line-height:.96;letter-spacing:.3px;}
+.partner-why-tiles{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.partner-why-tiles .growth-why-card{padding:26px;}
+.partner-why-tiles .disp{font-size:34px;color:var(--indigo);}
+.partner-why-tiles .disp + p{margin-top:10px;}
+.partner-why-tiles .partner-why-closing{grid-column:1/-1;}
+.partner-why-tiles .partner-why-closing p{font-size:16px;color:var(--midnight);}
+@media(max-width:920px){
+  .partner-why{grid-template-columns:1fr;gap:32px;}
+  .partner-why-person{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;}
+  .partner-why-person .growth-founder-photo-wrap{flex:none;min-height:0;aspect-ratio:1;}
+  .partner-why-person .founder-role{margin-top:0;}
+}
+@media(max-width:600px){
+  .partner-why-tiles{grid-template-columns:1fr;}
+  .partner-why-tiles .disp{font-size:28px;}
+}
+
+/* Offer page — tint the shared testimonials section (component unchanged) */
+.partner-testimonials .section{background:var(--sky);}
+
+/* Share page — section headings: avoid a lone last word on mobile */
+.share-head h2{text-wrap:pretty;}
+
+/* Share page — jump links */
+.share-jump{display:flex;flex-wrap:wrap;gap:10px;margin-top:48px;}
+.share-jump a{font-size:14px;font-weight:600;color:var(--indigo);background:#fff;border:1px solid var(--indigo-100);
+  border-radius:999px;padding:8px 16px;transition:background .15s;}
+.share-jump a:hover{background:var(--indigo-050);}
+
+/* Share page — copy/download cards */
+.share-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:40px;}
+.share-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:28px;min-width:0;}
+.share-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;}
+.share-card h4{font-size:17px;font-weight:700;color:var(--midnight);margin:0;}
+.share-card-note{font-size:14px;line-height:1.5;color:var(--ink-500);margin:6px 0 0;}
+.share-card-text{margin:18px 0 0;padding:18px 20px;background:var(--sky);border-radius:var(--r-md);
+  font-size:15px;line-height:1.6;color:var(--midnight);white-space:pre-wrap;overflow-wrap:anywhere;}
+.share-copy-btn{flex:none;display:inline-flex;align-items:center;font-family:var(--font-body);font-size:14px;
+  font-weight:600;color:#fff;background:var(--indigo);border:none;border-radius:999px;padding:9px 18px;
+  cursor:pointer;transition:background .15s;text-decoration:none;}
+.share-copy-btn:hover{background:var(--indigo-700);}
+.share-copy-btn.copied{background:var(--pine);}
+.share-downloads{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}
+.share-qr{display:flex;align-items:center;gap:28px;margin-top:24px;}
+.share-qr img{width:140px;height:140px;flex:none;}
+
+/* Share page — referral profile table */
+.share-table-wrap{margin-top:28px;overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);}
+.share-table{width:100%;border-collapse:collapse;}
+.share-table th{text-align:left;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--indigo);padding:16px 24px;border-bottom:1px solid var(--line);}
+.share-table td{padding:18px 24px;border-bottom:1px solid var(--line);vertical-align:top;font-size:15px;color:var(--midnight);}
+.share-table tr:last-child td{border-bottom:none;}
+.share-table td:first-child{font-weight:600;width:28%;}
+.share-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.share-tags span{font-size:13px;font-weight:500;color:var(--pine);background:var(--lime-100);border-radius:999px;padding:5px 12px;}
+
+/* Share page — logo previews */
+.share-logo-preview{display:flex;align-items:center;justify-content:center;height:120px;border-radius:var(--r-md);
+  background:var(--sky);padding:24px;}
+.share-logo-preview.dark{background:var(--midnight);}
+.share-logo-preview img{max-height:44px;width:auto;}
+
+@media(max-width:760px){
+  .share-grid{grid-template-columns:1fr !important;}
+  .share-qr{flex-direction:column;align-items:flex-start;}
+  .share-table td:first-child{width:auto;}
+}
+@media(max-width:600px){
+  .share-card-head{flex-direction:column;}
+}
