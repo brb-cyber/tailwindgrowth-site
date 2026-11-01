@@ -44,8 +44,27 @@ const orgSchema = {
         'https://www.linkedin.com/company/tailwind-growth/',
         'https://www.instagram.com/tailwind_growth/',
         'https://growthgossip.substack.com/',
+        'https://events.humanitix.com/host/tailwind-growth',
       ],
       address: { '@type': 'PostalAddress', addressRegion: 'NSW', addressCountry: 'AU' },
+    },
+    {
+      '@type': 'Event',
+      '@id': 'https://tailwindgrowth.ai/#hif-2026',
+      name: 'The Future of AI Services: Services Are the New Software',
+      description:
+        'A 45-minute provocation at Hunter Innovation Festival 2026, moderated by Baidy Barton, Founder of Tailwind Growth.',
+      startDate: '2026-11-24',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      eventStatus: 'https://schema.org/EventScheduled',
+      location: {
+        '@type': 'Place',
+        name: 'NEX, Newcastle Exhibition & Convention Centre',
+        address: { '@type': 'PostalAddress', addressLocality: 'Newcastle', addressRegion: 'NSW', addressCountry: 'AU' },
+      },
+      organizer: { '@type': 'Organization', name: 'Hunter Innovation Festival', url: 'https://www.hunterif.com.au/' },
+      performer: { '@id': 'https://tailwindgrowth.ai/#baidy' },
+      url: 'https://www.hunterif.com.au/at-a-glance#speakers',
     },
     {
       '@type': 'Person',
@@ -60,6 +79,10 @@ const orgSchema = {
       sameAs: [
         'https://www.linkedin.com/in/baidybarton/',
         'https://growthgossip.substack.com/',
+      ],
+      subjectOf: [
+        { '@type': 'WebPage', name: 'Hunter Innovation Festival 2026 speakers', url: 'https://www.hunterif.com.au/at-a-glance#speakers' },
+        { '@type': 'WebPage', name: 'Built to Grow Sprint, Lake Macquarie Business', url: 'https://www.lakemacbusiness.com.au/event/built-to-grow-sprint/' },
       ],
       knowsAbout: [
         'B2B growth',

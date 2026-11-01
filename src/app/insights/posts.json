@@ -1,5 +1,77 @@
 [
   {
+    "slug": "what-is-a-fractional-cro",
+    "title": "What is a fractional CRO, and do B2B founders actually need one?",
+    "description": "What a fractional CRO does, how it differs from a sales hire, the signs you need one (and don't), and how to choose one in Australia.",
+    "date": "2026-11-01",
+    "answer": "A fractional CRO (Chief Revenue Officer) is a senior revenue leader who works in your business part time, owning your growth strategy and helping you execute it, without the cost of a full-time executive. Most B2B founders under $5M in revenue don't need a full-time CRO. Many do need someone senior in their corner once referrals stop being enough and there's no one in the business whose job is growth.",
+    "sections": [
+      {
+        "heading": "What a fractional CRO actually does",
+        "paragraphs": [
+          "A Chief Revenue Officer owns everything that brings money into the business: how you get found, how you win work, how you onboard new clients, and how you keep and grow them. A fractional CRO does the same job, just not five days a week.",
+          "The good ones don't hand you a strategy deck and walk away. They get in the trenches: building the target list, sitting in on pitches, setting up the pipeline and holding you accountable to the plan. The fractional part is about time, not commitment."
+        ]
+      },
+      {
+        "heading": "Fractional CRO, fractional growth leader or a sales hire?",
+        "paragraphs": [
+          "Fractional CRO and fractional growth leader describe the same role. CRO is the familiar title if you've come from corporate or a scaled business. Growth leader is a more honest description for a small services firm: someone who drives growth across the whole business, not just sales.",
+          "A salesperson or business development manager is a different role. They run a sales process. A fractional CRO designs the process, builds the system and helps you lead it. Hiring a BDM before that exists usually means paying a salary for someone to work out what to do, and many salespeople don't understand how professional services actually wins work: through trust and relationships, not volume."
+        ]
+      },
+      {
+        "heading": "Signs you need one",
+        "paragraphs": [
+          "You've grown on referrals and hit a ceiling, and growth has stalled even though the work is as good as ever.",
+          "Everything to do with winning new work still runs through you, and it slips every time you're busy delivering.",
+          "You're weighing up a sales hire or an agency, but you're not sure what you'd actually ask them to do.",
+          "You're ready for the next phase of growth, but there's no one in the business whose job is growth."
+        ]
+      },
+      {
+        "heading": "And when you probably don't",
+        "paragraphs": [
+          "If you're booked out for the next year and have no interest in growing, you don't need one. Enjoy it.",
+          "If you already have a strong commercial leader in the business, you may need more capacity under them, not another leader above them."
+        ]
+      },
+      {
+        "heading": "What it costs and how much time it takes",
+        "paragraphs": [
+          "A full-time CRO is a significant salary commitment that most businesses under $5M in revenue can't justify yet. A fractional arrangement scales that down to what the business needs right now, and flexes up as you grow.",
+          "The cadence varies. Some founders want a monthly strategy and accountability session. Others want embedded support that works more like a part-time team member. Be wary of anyone offering a fixed package before they understand your business."
+        ]
+      },
+      {
+        "heading": "How to choose a fractional CRO in Australia",
+        "paragraphs": [
+          "You'll find fractional CROs in Australia through marketplaces that match businesses with fractional executives, through independent operators and through specialist firms. Whichever route you take, ask four questions. Have they carried a revenue number in a business like yours? Do they understand how professional services wins work? Will they build a system you keep, or one that leaves when they do? And will they work alongside you, or just advise?",
+          "At Tailwind Growth, that's the role Baidy Barton plays for founder-led B2B services businesses doing $200K to $5M in revenue: a fractional CRO and growth leader with 15+ years as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company and Partner at a global professional services firm, paired with an AI-native growth system that handles the admin of winning new work."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a fractional CRO cost?",
+        "a": "It depends on how much time you need, but it's a fraction of a full-time executive salary. Tailwind Growth costs around 10% of a full-time Chief Revenue Officer, with no recruitment risk or employment overhead."
+      },
+      {
+        "q": "Is a fractional CRO only for tech startups?",
+        "a": "No. Most fractional CROs come from scaling startups, but the role works just as well for B2B professional services firms such as lawyers, accountants, engineers and consultants, as long as the person understands how relationship-led businesses win work."
+      },
+      {
+        "q": "How long do you need a fractional CRO for?",
+        "a": "Until the system runs and you, or a future hire, can lead it with confidence. Tailwind Growth works month to month with no lock-in."
+      }
+    ],
+    "cta": {
+      "href": "/fractional-cro/",
+      "label": "Fractional CRO & Growth Leader",
+      "text": "Tailwind Growth gives founder-led B2B businesses a fractional CRO and growth leader plus the system to back it, month to month. See how it works across the whole customer lifecycle."
+    }
+  },
+  {
     "slug": "referral-ceiling",
     "title": "Why B2B founders hit a referral ceiling — and how to break through it",
     "description": "Most B2B service businesses grow on referrals for a year or two, then plateau. Why it happens, the signs you've hit it, and the system that gets you through.",

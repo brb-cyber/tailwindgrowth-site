@@ -27,6 +27,7 @@ Founders and owners of B2B services businesses — lawyers, accountants, enginee
 - [What are the alternatives to a marketing agency for B2B client acquisition?](https://tailwindgrowth.ai/insights/alternatives-to-marketing-agency-b2b/): Advocates, partnerships, direct outreach, being in the room, and a pipeline system, and when marketing makes sense.
 - [What does "AI-native" actually mean for a B2B services business?](https://tailwindgrowth.ai/insights/what-ai-native-means-for-services/): AI-native vs AI-added, why the margin hype misses the point, and why people still come first.
 - [Why pipeline concentration is a growth risk](https://tailwindgrowth.ai/insights/pipeline-concentration-risk/): How relying on a few clients causes feast or famine, and how to reduce the risk.
+- [What is a fractional CRO, and do B2B founders actually need one?](https://tailwindgrowth.ai/insights/what-is-a-fractional-cro/): What a fractional CRO does, how it differs from a sales hire, the signs you need one, and how to choose one in Australia.
 - [/abc command guide](https://tailwindgrowth.ai/insights/abc-command/): Free Claude Code command that checks writing for spelling and grammar in Australian English.
 - [/notes command guide](https://tailwindgrowth.ai/insights/notes-command/): Free Claude Code command that turns photos of handwritten notes into dated markdown files.
 
@@ -73,7 +74,12 @@ Alternative terms people use for what Tailwind Growth provides:
 
 ## About the founder
 
-Baidy is the Founder of Tailwind Growth. He brings 15+ years of experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company, and Partner at a global professional services firm. He works directly with every Tailwind Growth client — there is no team of juniors.
+Baidy is the Founder of Tailwind Growth. She brings 15+ years of experience as a Commercialisation Director, Investor, Chief Revenue Officer of a B2B software company, and Partner at a global professional services firm. She works directly with every Tailwind Growth client — there is no team of juniors.
+
+## Speaking and events
+
+- Moderator, "The Future of AI Services: Services Are the New Software", Hunter Innovation Festival 2026, NEX Newcastle, 24 November 2026: https://www.hunterif.com.au/at-a-glance#speakers
+- Built to Grow Sprint, a 5-week growth program for Lake Macquarie and Newcastle B2B founders, supported by Dantia and Lake Macquarie Business, 28 October to 2 December 2026: https://www.lakemacbusiness.com.au/event/built-to-grow-sprint/ and https://events.humanitix.com/built-to-grow-sprint
 
 ## Location
 
