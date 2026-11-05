@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import Testimonials from "../components/Testimonials"
 import CurriculumStepper from "./CurriculumStepper"
 import FaqSection from "./FaqSection"
+import WaitlistForm from "./WaitlistForm"
 import { GROWTH_SPRINT_FAQS } from "./faqs"
 
 export const metadata: Metadata = {
@@ -30,19 +31,19 @@ export const metadata: Metadata = {
   },
 }
 
-// Everywhere this page links to registration goes through this one constant.
-const BOOK_URL = "https://events.humanitix.com/built-to-grow-sprint"
+// Nav "Book a call" uses the same discovery-call calendar as the rest of the site.
+const BOOK_URL = "https://calendar.app.google/x2YHKEPb5wzDa4JY6"
 
-// Single source of truth for the current cohort's specifics, so a future
-// cohort (different partner, venue, dates) only requires editing this object —
-// per the spec's "evergreen home" requirement.
+// Between cohorts the page runs in waitlist mode: no dates, and every
+// registration CTA points at the waitlist form in the bottom section.
+const WAITLIST_ANCHOR = "#waitlist"
+
+// Single source of truth for the cohort's specifics, so a future cohort
+// (different partner, venue) only requires editing this object.
 const CURRENT_COHORT = {
   partner: "Dantia",
   venue: "Dashworks",
   location: "Lake Macquarie",
-  startDateLabel: "28 October 2026",
-  startDateISO: "2026-10-28",
-  schedule: "Wednesdays, 8–10am",
   cohortSize: "10 to 15",
   fee: 625,
   coFundedValue: 2750,
@@ -72,7 +73,12 @@ const courseSchema = {
   hasCourseInstance: {
     "@type": "CourseInstance",
     courseMode: "Onsite",
-    startDate: CURRENT_COHORT.startDateISO,
+    courseSchedule: {
+      "@type": "Schedule",
+      repeatFrequency: "Weekly",
+      repeatCount: 5,
+      duration: "PT2H",
+    },
     location: {
       "@type": "Place",
       name: CURRENT_COHORT.venue,
@@ -125,22 +131,17 @@ function HeroSection() {
             A 5-week sprint that takes you from &ldquo;who are we chasing?&rdquo; to &ldquo;here&apos;s the system that brings in work&rdquo;, plus the follow-up to make sure it delivers.
           </p>
           <p style={{ marginBottom: 14, fontSize: 14, fontWeight: 600, color: "var(--lime)", letterSpacing: ".04em" }}>
-            Only 15 spots — applications close 21 October.
+            Our next cohort is coming soon. Join the waitlist to be first to hear.
           </p>
           <div className="growth-hero-cta">
             <a
               className="btn btn-accent"
-              href={BOOK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={WAITLIST_ANCHOR}
               style={{ fontSize: 17, padding: "17px 40px" }}
             >
-              Secure your spot
+              Join the waitlist
             </a>
           </div>
-          <p style={{ marginTop: 22, fontSize: 14, fontWeight: 600, color: "var(--lime)", letterSpacing: ".04em" }}>
-            Kicking off {CURRENT_COHORT.startDateLabel}
-          </p>
         </div>
       </div>
     </section>
@@ -258,10 +259,10 @@ function SolutionSection() {
             </div>
             <h4>What it looks like</h4>
             <p>
-              Five weekly 2-hour sessions, plus three monthly follow-up accountability sessions after the program ends. Eight sessions in total, all built around practical action.
+              Five weekly 2-hour sessions, plus three 1-hour follow-up accountability sessions in the months after the program ends. Eight sessions in total, all built around practical action.
             </p>
             <p style={{ marginTop: 16 }}>
-              {CURRENT_COHORT.schedule}, at {CURRENT_COHORT.venue} (or online if you can&apos;t make it face to face). You leave each week with something built and ready to be implemented the same day.
+              In person at {CURRENT_COHORT.venue} (or online if you can&apos;t make it face to face). You leave each week with something built and ready to be implemented the same day.
             </p>
           </div>
           <div className="growth-why-card">
@@ -392,7 +393,7 @@ function SupportersSection() {
 
 const INCLUDES = [
   "Five 2-hour in-person sessions (or you can attend online if needed)",
-  "Three monthly accountability sessions after the program ends",
+  "Three 1-hour monthly accountability sessions after the program ends",
   "Every artifact you build along the way: your ICP, growth strategy, 12-month and 90-day plans, pipeline stage map, lead source audit, qualification filter, follow-up templates, pipeline tracker, metrics snapshot, delegation map, and one working AI automation",
   "Ongoing access to your digital workbook to hold everything you've built",
   "A peer group of 10-15 ambitious business owners",
@@ -423,12 +424,10 @@ function InvestmentSection() {
             </p>
             <a
               className="btn btn-accent"
-              href={BOOK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={WAITLIST_ANCHOR}
               style={{ marginTop: 28, width: "100%", justifyContent: "center", fontSize: 16, padding: "15px 32px" }}
             >
-              Secure your spot
+              Join the waitlist
             </a>
           </div>
           <div className="sprint-investment-includes">
@@ -449,7 +448,7 @@ function InvestmentSection() {
 
 function CtaSection() {
   return (
-    <section className="growth-bottom-cta" id="get-started">
+    <section className="growth-bottom-cta" id="waitlist">
       <img
         src="/assets/vectors/vector-2-lime.svg"
         alt=""
@@ -458,27 +457,16 @@ function CtaSection() {
       />
       <div className="container" style={{ position: "relative" }}>
         <h2 className="disp" style={{ fontSize: 60, color: "#fff", marginBottom: 20 }}>
-          Secure your spot in the<br />
+          Be first in line for the next<br />
           <span style={{ color: "var(--lime)" }}>Built to Grow Sprint.</span>
         </h2>
         <p style={{ fontSize: 18, lineHeight: 1.55, color: "var(--fg-invert-2)", maxWidth: 460, margin: "0 auto 20px" }}>
-          Leave your worries about where your next client is coming from behind. Start 2027 in control of your business&apos;s growth.
+          Leave your worries about where your next client is coming from behind. Take control of your business&apos;s growth.
         </p>
-        <p style={{ fontSize: 15, fontWeight: 600, color: "var(--lime)", maxWidth: 460, margin: "0 auto 24px" }}>
-          Only 15 spots available. Applications close 21 October — sooner if we fill up.
+        <p style={{ fontSize: 15, fontWeight: 600, color: "var(--lime)", maxWidth: 460, margin: "0 auto 28px" }}>
+          Spots are limited to 15 per cohort. Waitlist members hear first and get first pick.
         </p>
-        <a
-          className="btn btn-accent"
-          href={BOOK_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ fontSize: 17, padding: "17px 40px" }}
-        >
-          Secure your spot
-        </a>
-        <p style={{ marginTop: 24, fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.55)" }}>
-          Kicking off {CURRENT_COHORT.startDateLabel}. See you there!
-        </p>
+        <WaitlistForm />
       </div>
     </section>
   )
