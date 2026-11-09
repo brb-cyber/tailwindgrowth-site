@@ -11,8 +11,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/fractional-cro/`, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${BASE}/growth-sprint/`, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/insights/`, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${BASE}/insights/abc-command/`, changeFrequency: 'yearly', priority: 0.5 },
-    { url: `${BASE}/insights/notes-command/`, changeFrequency: 'yearly', priority: 0.5 },
+    // abc-command and notes-command are deliberately left out: their content is
+    // email-gated, so Google sees near-identical pages and flags them as
+    // "Duplicate without user-selected canonical". They stay live and linked
+    // from /insights/; they just aren't submitted for indexing.
     ...POSTS.map((p) => ({
       url: `${BASE}/insights/${p.slug}/`,
       lastModified: p.updated ?? p.date,
