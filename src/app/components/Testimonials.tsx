@@ -23,7 +23,7 @@ const TESTIMONIALS = [
     // Condensed from the Growth Engine Monthly call, 9 Nov 2026. Approved by
     // Dan, including the 20% half-year revenue figure (Nov 2026).
     quote:
-      "Honestly, when we started I was drowning, and Baidy was the lifeboat I needed. She helped me rethink our pricing before a major client negotiation, and that deal alone paid for her. Since then we've seen a 20% uplift in half-year revenue.",
+      "When we started I was drowning, and Baidy was the lifeboat I needed. She helped me rethink our pricing before a major client negotiation, and that deal alone paid for her. Since then we've seen a 20% uplift in half-year revenue.",
     name: 'Dan Godden',
     role: 'Director',
     company: 'SolveSimple',
