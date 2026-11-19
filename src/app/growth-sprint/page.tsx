@@ -368,9 +368,7 @@ function TrustSection() {
 // ─── Supporters Banner ──────────────────────────────────────────────────────────
 // Dantia file choice (Dantia-Logo-2.png, the light-background version) and
 // partner sign-off on being listed are both still open items — see the spec
-// and build plan. The Business Centre asset is the RGB-REVERSE (white) file,
-// the only version supplied, so it sits in a dark chip to stay legible; swap
-// for a non-reverse file if/when one is available.
+// and build plan.
 
 function SupportersSection() {
   return (
@@ -380,9 +378,6 @@ function SupportersSection() {
         <div className="sprint-supporters-row">
           <img src="/assets/partners/dantia-logo.png" alt="Dantia" />
           <img src="/assets/partners/lake-mac-business-logo.svg" alt="Lake Macquarie Business" />
-          <span className="sprint-supporter-chip">
-            <img src="/assets/partners/business-centre-logo-reverse.svg" alt="The Business Centre" />
-          </span>
         </div>
       </div>
     </section>

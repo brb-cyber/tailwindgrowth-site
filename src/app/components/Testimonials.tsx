@@ -43,8 +43,7 @@ const TESTIMONIALS = [
     avatarPosition: '78% center',
     logo: '/assets/logos/clients/main-bureau.webp',
     // Main Bureau only supplied a light/reverse-colour wordmark (near-invisible
-    // on a white card) — same situation as the Business Centre logo on the
-    // Sprint page's Supporters banner, fixed the same way: a small dark chip.
+    // on a white card), so it sits in a small dark chip.
     logoOnDark: true,
   },
   {
