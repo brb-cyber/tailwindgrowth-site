@@ -280,9 +280,10 @@ export default function PartnerOfferPage({ params }: { params: { partner: string
         <AfterSection partner={partner} />
         <WhoForSection partner={partner} />
         <WhyBaidySection partner={partner} />
-        {/* Shared homepage testimonials; the wrapper tints it so sections keep alternating */}
+        {/* Shared homepage testimonials, clients only (no other partners' endorsements);
+            the wrapper tints it so sections keep alternating */}
         <div className="partner-testimonials">
-          <Testimonials />
+          <Testimonials includePartners={false} />
         </div>
         <PartnerFaq faqs={faqs} />
         <CtaSection partner={partner} />

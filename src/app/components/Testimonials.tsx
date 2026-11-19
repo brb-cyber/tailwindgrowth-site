@@ -1,10 +1,14 @@
 import { Eyebrow } from './Nav';
 
-// Single source of truth for both testimonials — imported as-is on the
-// homepage and reused verbatim on /growth-sprint/. Quotes are condensed
-// from clients' own raw feedback (an email, in Lisa's case), not written
-// fresh. See BUILT-TO-GROW-SPRINT-LANDING-PAGE-SPEC-TEMPLATE.md Section 13/14
-// for source material and sign-off status.
+// Single source of truth for every testimonial. Rendered on the homepage,
+// /growth-sprint/, /fractional-cro/ and the partner pages. Quotes are
+// condensed from people's own words (an email, a call transcript, a LinkedIn
+// post), not written fresh. See BUILT-TO-GROW-SPRINT-LANDING-PAGE-SPEC-TEMPLATE.md
+// Section 13/14 for source material and sign-off status.
+//
+// Clients come first; program-partner endorsements (`partner: true`) go after
+// them and are left off the partner referral pages, so one partner's
+// endorsement doesn't appear on another partner's page.
 const TESTIMONIALS = [
   {
     quote:
@@ -14,6 +18,17 @@ const TESTIMONIALS = [
     company: 'Jaegersoft',
     photo: '/assets/images/vivek-jayachandran.png',
     logo: '/assets/logos/clients/jaegersoft.svg',
+  },
+  {
+    // Condensed from the Growth Engine Monthly call, 9 Nov 2026. Approved by
+    // Dan, including the 20% half-year revenue figure (Nov 2026).
+    quote:
+      "Honestly, when we started I was drowning, and Baidy was the lifeboat I needed. She helped me rethink our pricing before a major client negotiation, and that deal alone paid for her. Since then we've seen a 20% uplift in half-year revenue.",
+    name: 'Dan Godden',
+    role: 'Director',
+    company: 'SolveSimple',
+    photo: '/assets/images/dan-godden.avif',
+    logo: '/assets/logos/clients/solvesimple.avif',
   },
   {
     quote:
@@ -32,9 +47,26 @@ const TESTIMONIALS = [
     // Sprint page's Supporters banner, fixed the same way: a small dark chip.
     logoOnDark: true,
   },
+  {
+    // Built from Tim's LinkedIn post on the Sprint (Nov 2026), plus the 2027
+    // co-funding agreed on 18 Nov 2026. Approved by Tim, including publishing
+    // the 2027 commitment (Nov 2026). The supplied Dantia SVG has white lettering
+    // (dark-background version); dantia.svg is a copy with those letters set
+    // to Dantia navy (#021D41). The Supporters-banner PNG is too padded to
+    // read at card-logo size.
+    quote:
+      "Through the Built to Grow Sprint, Tailwind is helping our first cohort of 14 local business owners strengthen their sales capability, build better pipelines and win more work. That's why we're co-funding the program again in 2027: more successful businesses means a stronger local economy.",
+    name: 'Tim Browne',
+    role: 'CEO',
+    company: 'Dantia',
+    photo: '/assets/images/tim-browne.webp',
+    logo: '/assets/logos/clients/dantia.svg',
+    partner: true,
+  },
 ]
 
-export default function Testimonials() {
+export default function Testimonials({ includePartners = true }: { includePartners?: boolean }) {
+  const testimonials = includePartners ? TESTIMONIALS : TESTIMONIALS.filter((t) => !t.partner)
   return (
     <section className="section" id="testimonials">
       <div className="container">
@@ -43,7 +75,7 @@ export default function Testimonials() {
           <h2 style={{ margin: '16px 0 0' }}>Don&apos;t take our word for it.</h2>
         </div>
         <div className="testimonial-grid">
-          {TESTIMONIALS.map((t) => (
+          {testimonials.map((t) => (
             <div className="testimonial-card" key={t.name}>
               <p className="testimonial-quote">&ldquo;{t.quote}&rdquo;</p>
               <div className="testimonial-person">

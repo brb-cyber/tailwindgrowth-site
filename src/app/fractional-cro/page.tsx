@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
+import Testimonials from "../components/Testimonials"
 import LifecycleStepper from "./LifecycleStepper"
 import FaqSection from "./FaqSection"
 import { FRACTIONAL_CRO_FAQS } from "./faqs"
@@ -275,11 +276,10 @@ function TrustSection() {
         </div>
 
         {/*
-          Testimonial and case study placeholders — content pending (testimonials and
-          case studies not yet collected). Not rendered in v1 per spec Section 7.
-          Uncomment and populate once content exists:
+          Case study placeholder — content pending (case studies not yet collected).
+          Testimonials now render as their own section after this one (shared
+          Testimonials component). Uncomment and populate once content exists:
 
-          <TestimonialSection />
           <CaseStudySection />
         */}
       </div>
@@ -346,6 +346,7 @@ export default function FractionalCroPage() {
         <ScopeOfEngagementSection />
         <HowWeWorkSection />
         <TrustSection />
+        <Testimonials />
         <FaqSection />
         <CtaSection />
       </main>
