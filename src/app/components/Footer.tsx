@@ -1,6 +1,5 @@
 const COMPANY_LINKS = [
   { label: 'The System', href: '/#thesystem' },
-  { label: 'Services', href: '/#services' },
   { label: 'How We Help', href: '/fractional-cro/' },
   { label: 'Built to Grow Sprint', href: '/growth-sprint/' },
   { label: 'About', href: '/#about' },
